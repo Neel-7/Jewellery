@@ -1,0 +1,122 @@
+@import "@fontsource/playfair-display/400.css";
+@import "@fontsource/playfair-display/400-italic.css";
+@import "@fontsource/playfair-display/600.css";
+@import "@fontsource/playfair-display/700.css";
+@import "@fontsource/inter/300.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 20% 97%; /* #FAF9F5 Ivory */
+    --foreground: 0 0% 7%;    /* #111111 Obsidian/Charcoal */
+
+    --card: 60 17% 99%;       /* #FDFDFB */
+    --card-foreground: 0 0% 7%;
+
+    --popover: 60 17% 99%;
+    --popover-foreground: 0 0% 7%;
+
+    --primary: 0 0% 7%;       /* Near-black as Primary */
+    --primary-foreground: 45 20% 97%;
+
+    --secondary: 36 18% 93%;  /* #F3EFE9 Soft Cream */
+    --secondary-foreground: 0 0% 7%;
+
+    --muted: 36 18% 93%;      /* Soft cream */
+    --muted-foreground: 0 0% 46%; /* #767676 Muted */
+
+    --accent: 179 80% 20%;    /* #0A5C5A Jewelry Teal */
+    --accent-foreground: 45 20% 97%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 45 20% 97%;
+
+    --border: 37 15% 88%;     /* #E5E0D8 Soft Beige-Gray */
+    --input: 37 15% 88%;
+    --ring: 179 80% 20%;
+
+    --radius: 0px;            /* Luxury brands use 0px or very minimal radius (e.g. 2px) */
+
+    --font-display: "Playfair Display", Georgia, serif;
+    --font-sans: "Inter", system-ui, sans-serif;
+  }
+
+  .dark {
+    --background: 0 0% 7%;
+    --foreground: 45 20% 97%;
+
+    --card: 0 0% 10%;
+    --card-foreground: 45 20% 97%;
+
+    --popover: 0 0% 10%;
+    --popover-foreground: 45 20% 97%;
+
+    --primary: 45 20% 97%;
+    --primary-foreground: 0 0% 7%;
+
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 45 20% 97%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 179 80% 40%;
+    --accent-foreground: 0 0% 7%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 45 20% 97%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 179 80% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-accent/20 selection:text-foreground;
+  }
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: var(--font-display);
+    @apply font-normal tracking-wide;
+  }
+}
+
+/* Editorial subtle fade/slide-up reveal utility class */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: revealUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes revealUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom scrollbar for high-end feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}

@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "prod-1",
+    "slug": "aurelia-diamond-drop-earrings",
+    "name": "Aurélia Diamond Drop Earrings",
+    "category": "Earrings",
+    "collection": "Fine Jewelry",
+    "material": "Gold",
+    "gemstone": "Diamond",
+    "price": 14500,
+    "isNew": true,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-E-001",
+    "rating": 4.9,
+    "ratingCount": 12,
+    "description": "Exquisite drop earrings meticulously crafted in 18k white gold. Featuring cascading round-brilliant and pear-shaped diamonds.",
+    "materials": ["18k White Gold", "Diamonds (4.25ctw)"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80",
+        "altText": "Aurélia Diamond Drop Earrings",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "altText": "Aurélia Diamond Drop Earrings - On Model",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-2",
+    "slug": "platinum-solitaire-diamond-ring",
+    "name": "Platinum Solitaire Diamond Ring",
+    "category": "Rings",
+    "collection": "Engagement & Bridal",
+    "material": "Platinum",
+    "gemstone": "Diamond",
+    "price": 28000,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-R-002",
+    "rating": 5,
+    "ratingCount": 8,
+    "description": "An iconic expression of modern romance. A solitary round-brilliant diamond set on a razor-thin 950 platinum band.",
+    "materials": ["Platinum 950", "Diamond (2.01ct, F VVS1)"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Platinum Solitaire Ring",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+        "altText": "Platinum Solitaire Ring detail",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-3",
+    "slug": "maison-emerald-chevron-bracelet",
+    "name": "Maison Emerald Chevron Bracelet",
+    "category": "Bracelets",
+    "collection": "High Jewelry",
+    "material": "Gold",
+    "gemstone": "Emerald",
+    "price": 19200,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-B-003",
+    "rating": 4.8,
+    "ratingCount": 5,
+    "description": "A striking fluid chevron silhouette in 18k yellow gold, pavé-set with rare Zambian emeralds of deep saturation.",
+    "materials": ["18k Yellow Gold", "Zambian Emeralds", "Diamonds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Emerald Chevron Bracelet",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Emerald Chevron Bracelet - Hover",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-4",
+    "slug": "chronos-sovereign-40mm-watch",
+    "name": "Chronos Sovereign 40mm Watch",
+    "category": "Watches",
+    "collection": "Timepieces",
+    "material": "Rose Gold",
+    "gemstone": "None",
+    "price": 32500,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": false,
+    "sku": "MA-W-004",
+    "rating": 4.7,
+    "ratingCount": 14,
+    "description": "Swiss-made automatic movement, set in a rose gold 40mm case. Aventurine glass dial paired with black alligator strap.",
+    "materials": ["18k Rose Gold", "Aventurine Dial", "Alligator Strap"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80",
+        "altText": "Chronos Sovereign Watch",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80",
+        "altText": "Chronos Sovereign - Back",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-5",
+    "slug": "maison-belvedere-halo-ring",
+    "name": "Maison Belvedere Halo Ring",
+    "category": "Rings",
+    "collection": "Fine Jewelry",
+    "material": "Silver",
+    "gemstone": "Emerald",
+    "price": 11100,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": false,
+    "sku": "MA-R-005",
+    "rating": 4.5,
+    "ratingCount": 21,
+    "description": "A stunning masterpiece representing the heights of our Fine Jewelry line, expertly styled in Silver with fine custom-cut Emerald.",
+    "materials": ["18k Silver", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Belvedere Halo Ring Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Belvedere Halo Ring Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-6",
+    "slug": "maison-celestial-chain",
+    "name": "Maison Celestial Chain",
+    "category": "Necklaces",
+    "collection": "Maison Collections",
+    "material": "Silver",
+    "gemstone": "Pearl",
+    "price": 22500,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-N-006",
+    "rating": 4.9,
+    "ratingCount": 4,
+    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Silver with fine custom-cut Pearl.",
+    "materials": ["18k Silver", "Pearls"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Celestial Chain Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Celestial Chain Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-7",
+    "slug": "maison-imperial-chandelier-earrings",
+    "name": "Maison Imperial Chandelier Earrings",
+    "category": "Earrings",
+    "collection": "Maison Collections",
+    "material": "Platinum",
+    "gemstone": "Diamond",
+    "price": 13400,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-E-007",
+    "rating": 4.9,
+    "ratingCount": 9,
+    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Platinum with fine custom-cut Diamond.",
+    "materials": ["18k Platinum", "Diamonds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Imperial Chandelier Earrings Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Imperial Chandelier Earrings Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-8",
+    "slug": "maison-lumi-re-bangle",
+    "name": "Maison Lumière Bangle",
+    "category": "Bracelets",
+    "collection": "Engagement & Bridal",
+    "material": "Gold",
+    "gemstone": "Emerald",
+    "price": 15600,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-B-008",
+    "rating": 4.9,
+    "ratingCount": 4,
+    "description": "A stunning masterpiece representing the heights of our Engagement & Bridal line, expertly styled in Gold with fine custom-cut Emerald.",
+    "materials": ["18k Gold", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Lumière Bangle Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Lumière Bangle Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-9",
+    "slug": "maison-heritage-classic-automatic",
+    "name": "Maison Heritage Classic Automatic",
+    "category": "Watches",
+    "collection": "Engagement & Bridal",
+    "material": "Gold",
+    "gemstone": "None",
+    "price": 37000,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-W-009",
+    "rating": 5,
+    "ratingCount": 6,
+    "description": "A stunning masterpiece representing the heights of our Engagement & Bridal line, expertly styled in Gold with fine custom-cut detailing.",
+    "materials": ["18k Gold", "High Polish"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Heritage Classic Automatic Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Heritage Classic Automatic Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-10",
+    "slug": "maison-victoria-cocktail-ring",
+    "name": "Maison Victoria Cocktail Ring",
+    "category": "Rings",
+    "collection": "High Jewelry",
+    "material": "Silver",
+    "gemstone": "Emerald",
+    "price": 2800,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-R-010",
+    "rating": 4.6,
+    "ratingCount": 20,
+    "description": "A stunning masterpiece representing the heights of our High Jewelry line, expertly styled in Silver with fine custom-cut Emerald.",
+    "materials": ["18k Silver", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Victoria Cocktail Ring Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1543294001-f7cbfe92237e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Victoria Cocktail Ring Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-11",
+    "slug": "maison-belvedere-chain",
+    "name": "Maison Belvedere Chain",
+    "category": "Necklaces",
+    "collection": "High Jewelry",
+    "material": "Platinum",
+    "gemstone": "Diamond",
+    "price": 37300,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-N-011",
+    "rating": 4.6,
+    "ratingCount": 27,
+    "description": "A stunning masterpiece representing the heights of our High Jewelry line, expertly styled in Platinum with fine custom-cut Diamond.",
+    "materials": ["18k Platinum", "Diamonds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Belvedere Chain Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1512540315028-2c1a6497da04?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Belvedere Chain Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-12",
+    "slug": "maison-aurelia-drop-earrings",
+    "name": "Maison Aurelia Drop Earrings",
+    "category": "Earrings",
+    "collection": "High Jewelry",
+    "material": "Platinum",
+    "gemstone": "Emerald",
+    "price": 6000,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-E-012",
+    "rating": 4.9,
+    "ratingCount": 17,
+    "description": "A stunning masterpiece representing the heights of our High Jewelry line, expertly styled in Platinum with fine custom-cut Emerald.",
+    "materials": ["18k Platinum", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Aurelia Drop Earrings Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Aurelia Drop Earrings Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-13",
+    "slug": "maison-imperial-tennis-bracelet",
+    "name": "Maison Imperial Tennis Bracelet",
+    "category": "Bracelets",
+    "collection": "Timepieces",
+    "material": "Gold",
+    "gemstone": "Sapphire",
+    "price": 23200,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-B-013",
+    "rating": 4.6,
+    "ratingCount": 20,
+    "description": "A stunning masterpiece representing the heights of our Timepieces line, expertly styled in Gold with fine custom-cut Sapphire.",
+    "materials": ["18k Gold", "Sapphires"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Imperial Tennis Bracelet Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Imperial Tennis Bracelet Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-14",
+    "slug": "maison-chevron-sovereign-chronograph",
+    "name": "Maison Chevron Sovereign Chronograph",
+    "category": "Watches",
+    "collection": "High Jewelry",
+    "material": "Silver",
+    "gemstone": "Emerald",
+    "price": 62800,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-W-014",
+    "rating": 4.8,
+    "ratingCount": 23,
+    "description": "A stunning masterpiece representing the heights of our High Jewelry line, expertly styled in Silver with fine custom-cut Emerald.",
+    "materials": ["18k Silver", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Chevron Sovereign Chronograph Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Chevron Sovereign Chronograph Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-15",
+    "slug": "maison-opera-dome-ring",
+    "name": "Maison Opera Dome Ring",
+    "category": "Rings",
+    "collection": "Engagement & Bridal",
+    "material": "Silver",
+    "gemstone": "Pearl",
+    "price": 10600,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-R-015",
+    "rating": 4.5,
+    "ratingCount": 7,
+    "description": "A stunning masterpiece representing the heights of our Engagement & Bridal line, expertly styled in Silver with fine custom-cut Pearl.",
+    "materials": ["18k Silver", "Pearls"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1543294001-f7cbfe92237e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Opera Dome Ring Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Opera Dome Ring Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-16",
+    "slug": "maison-solitaire-pendant",
+    "name": "Maison Solitaire Pendant",
+    "category": "Necklaces",
+    "collection": "High Jewelry",
+    "material": "Gold",
+    "gemstone": "Sapphire",
+    "price": 7400,
+    "isNew": true,
+    "isBestseller": true,
+    "inStock": false,
+    "sku": "MA-N-016",
+    "rating": 4.5,
+    "ratingCount": 22,
+    "description": "A stunning masterpiece representing the heights of our High Jewelry line, expertly styled in Gold with fine custom-cut Sapphire.",
+    "materials": ["18k Gold", "Sapphires"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1512540315028-2c1a6497da04?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Solitaire Pendant Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Solitaire Pendant Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-17",
+    "slug": "aurelia-drop-earrings-of-the-maison",
+    "name": "Aurelia Drop Earrings of the Maison",
+    "category": "Earrings",
+    "collection": "Fine Jewelry",
+    "material": "Silver",
+    "gemstone": "Emerald",
+    "price": 7700,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-E-017",
+    "rating": 4.7,
+    "ratingCount": 28,
+    "description": "A stunning masterpiece representing the heights of our Fine Jewelry line, expertly styled in Silver with fine custom-cut Emerald.",
+    "materials": ["18k Silver", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80",
+        "altText": "Aurelia Drop Earrings of the Maison Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "altText": "Aurelia Drop Earrings of the Maison Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-18",
+    "slug": "maison-heritage-cuff",
+    "name": "Maison Heritage Cuff",
+    "category": "Bracelets",
+    "collection": "Maison Collections",
+    "material": "Gold",
+    "gemstone": "Diamond",
+    "price": 23300,
+    "isNew": true,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-B-018",
+    "rating": 4.9,
+    "ratingCount": 23,
+    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Gold with fine custom-cut Diamond.",
+    "materials": ["18k Gold", "Diamonds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Heritage Cuff Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Heritage Cuff Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-19",
+    "slug": "maison-imperial-stella-watch",
+    "name": "Maison Imperial Stella Watch",
+    "category": "Watches",
+    "collection": "Timepieces",
+    "material": "Platinum",
+    "gemstone": "None",
+    "price": 41500,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-W-019",
+    "rating": 4.7,
+    "ratingCount": 19,
+    "description": "A stunning masterpiece representing the heights of our Timepieces line, expertly styled in Platinum with fine custom-cut detailing.",
+    "materials": ["18k Platinum", "High Polish"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Imperial Stella Watch Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Imperial Stella Watch Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-20",
+    "slug": "maison-victoria-halo-ring",
+    "name": "Maison Victoria Halo Ring",
+    "category": "Rings",
+    "collection": "Maison Collections",
+    "material": "Platinum",
+    "gemstone": "None",
+    "price": 10700,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": false,
+    "sku": "MA-R-020",
+    "rating": 4.7,
+    "ratingCount": 14,
+    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Platinum with fine custom-cut detailing.",
+    "materials": ["18k Platinum", "High Polish"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Victoria Halo Ring Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Victoria Halo Ring Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-21",
+    "slug": "maison-belvedere-collar",
+    "name": "Maison Belvedere Collar",
+    "category": "Necklaces",
+    "collection": "Engagement & Bridal",
+    "material": "Rose Gold",
+    "gemstone": "Emerald",
+    "price": 33600,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": false,
+    "sku": "MA-N-021",
+    "rating": 5,
+    "ratingCount": 17,
+    "description": "A stunning masterpiece representing the heights of our Engagement & Bridal line, expertly styled in Rose Gold with fine custom-cut Emerald.",
+    "materials": ["18k Rose Gold", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Belvedere Collar Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Belvedere Collar Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-22",
+    "slug": "maison-sovereign-drop-earrings",
+    "name": "Maison Sovereign Drop Earrings",
+    "category": "Earrings",
+    "collection": "Maison Collections",
+    "material": "Rose Gold",
+    "gemstone": "Pearl",
+    "price": 9700,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-E-022",
+    "rating": 4.8,
+    "ratingCount": 15,
+    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Rose Gold with fine custom-cut Pearl.",
+    "materials": ["18k Rose Gold", "Pearls"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Sovereign Drop Earrings Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Sovereign Drop Earrings Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-23",
+    "slug": "maison-aurelia-tennis-bracelet",
+    "name": "Maison Aurelia Tennis Bracelet",
+    "category": "Bracelets",
+    "collection": "Timepieces",
+    "material": "Platinum",
+    "gemstone": "Diamond",
+    "price": 17200,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-B-023",
+    "rating": 4.8,
+    "ratingCount": 3,
+    "description": "A stunning masterpiece representing the heights of our Timepieces line, expertly styled in Platinum with fine custom-cut Diamond.",
+    "materials": ["18k Platinum", "Diamonds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Aurelia Tennis Bracelet Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Aurelia Tennis Bracelet Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-24",
+    "slug": "maison-royal-horology-timepiece",
+    "name": "Maison Royal Horology Timepiece",
+    "category": "Watches",
+    "collection": "Engagement & Bridal",
+    "material": "Platinum",
+    "gemstone": "None",
+    "price": 73300,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-W-024",
+    "rating": 4.6,
+    "ratingCount": 9,
+    "description": "A stunning masterpiece representing the heights of our Engagement & Bridal line, expertly styled in Platinum with fine custom-cut detailing.",
+    "materials": ["18k Platinum", "High Polish"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Royal Horology Timepiece Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Royal Horology Timepiece Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-25",
+    "slug": "maison-sovereign-band",
+    "name": "Maison Sovereign Band",
+    "category": "Rings",
+    "collection": "Timepieces",
+    "material": "Gold",
+    "gemstone": "Emerald",
+    "price": 3000,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-R-025",
+    "rating": 5,
+    "ratingCount": 10,
+    "description": "A stunning masterpiece representing the heights of our Timepieces line, expertly styled in Gold with fine custom-cut Emerald.",
+    "materials": ["18k Gold", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Sovereign Band Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Sovereign Band Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-26",
+    "slug": "maison-celestial-collar",
+    "name": "Maison Celestial Collar",
+    "category": "Necklaces",
+    "collection": "Fine Jewelry",
+    "material": "Platinum",
+    "gemstone": "Emerald",
+    "price": 19000,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-N-026",
+    "rating": 4.9,
+    "ratingCount": 4,
+    "description": "A stunning masterpiece representing the heights of our Fine Jewelry line, expertly styled in Platinum with fine custom-cut Emerald.",
+    "materials": ["18k Platinum", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Celestial Collar Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Celestial Collar Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-27",
+    "slug": "maison-stella-creoles",
+    "name": "Maison Stella Creoles",
+    "category": "Earrings",
+    "collection": "Timepieces",
+    "material": "Rose Gold",
+    "gemstone": "Diamond",
+    "price": 12900,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-E-027",
+    "rating": 4.7,
+    "ratingCount": 15,
+    "description": "A stunning masterpiece representing the heights of our Timepieces line, expertly styled in Rose Gold with fine custom-cut Diamond.",
+    "materials": ["18k Rose Gold", "Diamonds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Stella Creoles Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Stella Creoles Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-28",
+    "slug": "maison-heritage-chain-bracelet",
+    "name": "Maison Heritage Chain Bracelet",
+    "category": "Bracelets",
+    "collection": "Timepieces",
+    "material": "Silver",
+    "gemstone": "Sapphire",
+    "price": 18000,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-B-028",
+    "rating": 4.5,
+    "ratingCount": 24,
+    "description": "A stunning masterpiece representing the heights of our Timepieces line, expertly styled in Silver with fine custom-cut Sapphire.",
+    "materials": ["18k Silver", "Sapphires"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Heritage Chain Bracelet Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Heritage Chain Bracelet Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-29",
+    "slug": "imperial-stella-watch-of-the-maison",
+    "name": "Imperial Stella Watch of the Maison",
+    "category": "Watches",
+    "collection": "Maison Collections",
+    "material": "Silver",
+    "gemstone": "Pearl",
+    "price": 19200,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-W-029",
+    "rating": 4.9,
+    "ratingCount": 18,
+    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Silver with fine custom-cut Pearl.",
+    "materials": ["18k Silver", "Pearls"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80",
+        "altText": "Imperial Stella Watch of the Maison Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80",
+        "altText": "Imperial Stella Watch of the Maison Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-30",
+    "slug": "maison-belvedere-dome-ring",
+    "name": "Maison Belvedere Dome Ring",
+    "category": "Rings",
+    "collection": "Timepieces",
+    "material": "Silver",
+    "gemstone": "Pearl",
+    "price": 7200,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-R-030",
+    "rating": 4.7,
+    "ratingCount": 7,
+    "description": "A stunning masterpiece representing the heights of our Timepieces line, expertly styled in Silver with fine custom-cut Pearl.",
+    "materials": ["18k Silver", "Pearls"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Belvedere Dome Ring Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1543294001-f7cbfe92237e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Belvedere Dome Ring Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-31",
+    "slug": "maison-opera-collar",
+    "name": "Maison Opera Collar",
+    "category": "Necklaces",
+    "collection": "Engagement & Bridal",
+    "material": "Gold",
+    "gemstone": "Pearl",
+    "price": 17900,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-N-031",
+    "rating": 4.7,
+    "ratingCount": 11,
+    "description": "A stunning masterpiece representing the heights of our Engagement & Bridal line, expertly styled in Gold with fine custom-cut Pearl.",
+    "materials": ["18k Gold", "Pearls"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Opera Collar Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1512540315028-2c1a6497da04?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Opera Collar Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-32",
+    "slug": "maison-aurelia-hoops",
+    "name": "Maison Aurelia Hoops",
+    "category": "Earrings",
+    "collection": "Timepieces",
+    "material": "Platinum",
+    "gemstone": "Sapphire",
+    "price": 13600,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-E-032",
+    "rating": 4.8,
+    "ratingCount": 10,
+    "description": "A stunning masterpiece representing the heights of our Timepieces line, expertly styled in Platinum with fine custom-cut Sapphire.",
+    "materials": ["18k Platinum", "Sapphires"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Aurelia Hoops Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Aurelia Hoops Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-33",
+    "slug": "maison-stella-chain-bracelet",
+    "name": "Maison Stella Chain Bracelet",
+    "category": "Bracelets",
+    "collection": "Fine Jewelry",
+    "material": "Rose Gold",
+    "gemstone": "None",
+    "price": 9300,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-B-033",
+    "rating": 4.5,
+    "ratingCount": 20,
+    "description": "A stunning masterpiece representing the heights of our Fine Jewelry line, expertly styled in Rose Gold with fine custom-cut detailing.",
+    "materials": ["18k Rose Gold", "High Polish"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Stella Chain Bracelet Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Stella Chain Bracelet Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-34",
+    "slug": "maison-imperial-sovereign-chronograph",
+    "name": "Maison Imperial Sovereign Chronograph",
+    "category": "Watches",
+    "collection": "Engagement & Bridal",
+    "material": "Rose Gold",
+    "gemstone": "Emerald",
+    "price": 63200,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-W-034",
+    "rating": 4.9,
+    "ratingCount": 20,
+    "description": "A stunning masterpiece representing the heights of our Engagement & Bridal line, expertly styled in Rose Gold with fine custom-cut Emerald.",
+    "materials": ["18k Rose Gold", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Imperial Sovereign Chronograph Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Imperial Sovereign Chronograph Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-35",
+    "slug": "maison-heritage-dome-ring",
+    "name": "Maison Heritage Dome Ring",
+    "category": "Rings",
+    "collection": "Timepieces",
+    "material": "Silver",
+    "gemstone": "None",
+    "price": 17200,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-R-035",
+    "rating": 4.9,
+    "ratingCount": 21,
+    "description": "A stunning masterpiece representing the heights of our Timepieces line, expertly styled in Silver with fine custom-cut detailing.",
+    "materials": ["18k Silver", "High Polish"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1543294001-f7cbfe92237e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Heritage Dome Ring Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Heritage Dome Ring Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-36",
+    "slug": "celestial-collar-of-the-maison",
+    "name": "Celestial Collar of the Maison",
+    "category": "Necklaces",
+    "collection": "High Jewelry",
+    "material": "Rose Gold",
+    "gemstone": "Sapphire",
+    "price": 20800,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-N-036",
+    "rating": 4.5,
+    "ratingCount": 24,
+    "description": "A stunning masterpiece representing the heights of our High Jewelry line, expertly styled in Rose Gold with fine custom-cut Sapphire.",
+    "materials": ["18k Rose Gold", "Sapphires"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1512540315028-2c1a6497da04?auto=format&fit=crop&w=800&q=80",
+        "altText": "Celestial Collar of the Maison Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+        "altText": "Celestial Collar of the Maison Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-37",
+    "slug": "maison-aurelia-studs",
+    "name": "Maison Aurelia Studs",
+    "category": "Earrings",
+    "collection": "High Jewelry",
+    "material": "Silver",
+    "gemstone": "None",
+    "price": 18200,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": false,
+    "sku": "MA-E-037",
+    "rating": 4.5,
+    "ratingCount": 5,
+    "description": "A stunning masterpiece representing the heights of our High Jewelry line, expertly styled in Silver with fine custom-cut detailing.",
+    "materials": ["18k Silver", "High Polish"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Aurelia Studs Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Aurelia Studs Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-38",
+    "slug": "maison-celestial-bangle",
+    "name": "Maison Celestial Bangle",
+    "category": "Bracelets",
+    "collection": "Fine Jewelry",
+    "material": "Silver",
+    "gemstone": "None",
+    "price": 8600,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-B-038",
+    "rating": 4.6,
+    "ratingCount": 6,
+    "description": "A stunning masterpiece representing the heights of our Fine Jewelry line, expertly styled in Silver with fine custom-cut detailing.",
+    "materials": ["18k Silver", "High Polish"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Celestial Bangle Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Celestial Bangle Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-39",
+    "slug": "maison-classic-sovereign-chronograph",
+    "name": "Maison Classic Sovereign Chronograph",
+    "category": "Watches",
+    "collection": "Engagement & Bridal",
+    "material": "Silver",
+    "gemstone": "Diamond",
+    "price": 69900,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-W-039",
+    "rating": 4.5,
+    "ratingCount": 7,
+    "description": "A stunning masterpiece representing the heights of our Engagement & Bridal line, expertly styled in Silver with fine custom-cut Diamond.",
+    "materials": ["18k Silver", "Diamonds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Classic Sovereign Chronograph Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Classic Sovereign Chronograph Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-40",
+    "slug": "maison-opera-eternity-ring",
+    "name": "Maison Opera Eternity Ring",
+    "category": "Rings",
+    "collection": "Maison Collections",
+    "material": "Platinum",
+    "gemstone": "Emerald",
+    "price": 4100,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-R-040",
+    "rating": 4.9,
+    "ratingCount": 29,
+    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Platinum with fine custom-cut Emerald.",
+    "materials": ["18k Platinum", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Opera Eternity Ring Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Opera Eternity Ring Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-41",
+    "slug": "maison-royal-collar",
+    "name": "Maison Royal Collar",
+    "category": "Necklaces",
+    "collection": "Engagement & Bridal",
+    "material": "Rose Gold",
+    "gemstone": "None",
+    "price": 11800,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-N-041",
+    "rating": 4.9,
+    "ratingCount": 17,
+    "description": "A stunning masterpiece representing the heights of our Engagement & Bridal line, expertly styled in Rose Gold with fine custom-cut detailing.",
+    "materials": ["18k Rose Gold", "High Polish"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Royal Collar Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Royal Collar Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-42",
+    "slug": "maison-sovereign-creoles",
+    "name": "Maison Sovereign Creoles",
+    "category": "Earrings",
+    "collection": "Maison Collections",
+    "material": "Rose Gold",
+    "gemstone": "Emerald",
+    "price": 4200,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-E-042",
+    "rating": 4.7,
+    "ratingCount": 14,
+    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Rose Gold with fine custom-cut Emerald.",
+    "materials": ["18k Rose Gold", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Sovereign Creoles Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Sovereign Creoles Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-43",
+    "slug": "maison-sovereign-link-bracelet",
+    "name": "Maison Sovereign Link Bracelet",
+    "category": "Bracelets",
+    "collection": "Fine Jewelry",
+    "material": "Platinum",
+    "gemstone": "Pearl",
+    "price": 10400,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-B-043",
+    "rating": 4.8,
+    "ratingCount": 13,
+    "description": "A stunning masterpiece representing the heights of our Fine Jewelry line, expertly styled in Platinum with fine custom-cut Pearl.",
+    "materials": ["18k Platinum", "Pearls"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Sovereign Link Bracelet Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Sovereign Link Bracelet Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-44",
+    "slug": "maison-celestial-stella-watch",
+    "name": "Maison Celestial Stella Watch",
+    "category": "Watches",
+    "collection": "Maison Collections",
+    "material": "Rose Gold",
+    "gemstone": "None",
+    "price": 54600,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-W-044",
+    "rating": 5,
+    "ratingCount": 9,
+    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Rose Gold with fine custom-cut detailing.",
+    "materials": ["18k Rose Gold", "High Polish"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Celestial Stella Watch Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Celestial Stella Watch Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-45",
+    "slug": "maison-sovereign-solitaire-ring",
+    "name": "Maison Sovereign Solitaire Ring",
+    "category": "Rings",
+    "collection": "Fine Jewelry",
+    "material": "Gold",
+    "gemstone": "Diamond",
+    "price": 10500,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-R-045",
+    "rating": 4.9,
+    "ratingCount": 9,
+    "description": "A stunning masterpiece representing the heights of our Fine Jewelry line, expertly styled in Gold with fine custom-cut Diamond.",
+    "materials": ["18k Gold", "Diamonds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Sovereign Solitaire Ring Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Sovereign Solitaire Ring Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-46",
+    "slug": "maison-heritage-choker",
+    "name": "Maison Heritage Choker",
+    "category": "Necklaces",
+    "collection": "High Jewelry",
+    "material": "Silver",
+    "gemstone": "Sapphire",
+    "price": 32200,
+    "isNew": false,
+    "isBestseller": true,
+    "inStock": true,
+    "sku": "MA-N-046",
+    "rating": 4.5,
+    "ratingCount": 21,
+    "description": "A stunning masterpiece representing the heights of our High Jewelry line, expertly styled in Silver with fine custom-cut Sapphire.",
+    "materials": ["18k Silver", "Sapphires"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Heritage Choker Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Heritage Choker Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-47",
+    "slug": "maison-celestial-studs",
+    "name": "Maison Celestial Studs",
+    "category": "Earrings",
+    "collection": "High Jewelry",
+    "material": "Rose Gold",
+    "gemstone": "Sapphire",
+    "price": 19600,
+    "isNew": true,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-E-047",
+    "rating": 4.6,
+    "ratingCount": 3,
+    "description": "A stunning masterpiece representing the heights of our High Jewelry line, expertly styled in Rose Gold with fine custom-cut Sapphire.",
+    "materials": ["18k Rose Gold", "Sapphires"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Celestial Studs Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Celestial Studs Alternate View",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "id": "prod-48",
+    "slug": "maison-chevron-tennis-bracelet",
+    "name": "Maison Chevron Tennis Bracelet",
+    "category": "Bracelets",
+    "collection": "Timepieces",
+    "material": "Gold",
+    "gemstone": "Emerald",
+    "price": 6900,
+    "isNew": false,
+    "isBestseller": false,
+    "inStock": true,
+    "sku": "MA-B-048",
+    "rating": 4.6,
+    "ratingCount": 10,
+    "description": "A stunning masterpiece representing the heights of our Timepieces line, expertly styled in Gold with fine custom-cut Emerald.",
+    "materials": ["18k Gold", "Emeralds"],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Chevron Tennis Bracelet Main View",
+        "type": "image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
+        "altText": "Maison Chevron Tennis Bracelet Alternate View",
+        "type": "image"
+      }
+    ]
+  }
+]
