@@ -1,12 +1,13 @@
-# Maison Aurélia — High-End Luxury E-Commerce Scaffold
+# Labonno — High-End Luxury E-Commerce Scaffold
 
-Maison Aurélia is a production-grade, highly scalable e-commerce frontend architecture for a boutique luxury jewelry brand. It features clean editorial luxury aesthetics, drawing inspiration from **Tiffany & Co.** (generous negative space, centered serif headers, ivory background), **Gucci** (cinematic full-bleed imagery), and **Sabyasachi** (storytelling-driven magazine layouts).
+Labonno is a production-grade, highly scalable e-commerce frontend architecture for a boutique luxury jewelry brand. It features clean editorial luxury aesthetics, drawing inspiration from **Tiffany & Co.** (generous negative space, centered serif headers, ivory background), **Gucci** (cinematic full-bleed imagery), and **Sabyasachi** (storytelling-driven magazine layouts).
 
 ---
 
 ## Architectural Guidelines & Design Tokens
 
 ### Technical Stack
+
 - **Framework:** React 18 + TypeScript (Strict Mode)
 - **State Management:** Redux Toolkit + RTK Query (Caching/API layers)
 - **Routing:** React Router v6
@@ -97,9 +98,11 @@ The design tokens are centralized in `src/styles/globals.css` as CSS variables a
 ## Core Feature Passes
 
 ### 1. Product Listing Page (PLP) & Custom Filters
+
 A fully URL-synchronized, responsive catalog rendering ~48 unique pieces from a mock JSON database. Implements custom collapsible Accordion filter sidesteps (material, category, price) and Sort controls.
 
 ### 2. Product Detail Page (PDP) & Active Cart Flow
+
 - **ProductGallery:** Main viewport with coordinate-based mouse hover-zoom plus dynamic thumbnail selectors.
 - **ProductInfoPanel:** Large serif title formatting, review rating summaries, material badges, and collapsible static luxury Care and Fitting accordions.
 - **StickyMobileBar:** Sticky bottom drawer revealed upon downward scrolling, making checkout quick actions continuously reachable on viewports.

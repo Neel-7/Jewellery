@@ -1,7 +1,7 @@
-import * as React from "react"
-import { Link } from "react-router-dom"
-import { SectionHeading } from "@/components/shared/SectionHeading"
-import { Button } from "@/components/ui/button"
+import * as React from "react";
+import { Link } from "react-router-dom";
+import { SectionHeading } from "@/components/shared/SectionHeading";
+import { Button } from "@/components/ui/button";
 
 export const NotFound: React.FC = () => {
   return (
@@ -12,11 +12,12 @@ export const NotFound: React.FC = () => {
         align="center"
       />
       <p className="text-sm font-sans text-muted-foreground leading-relaxed max-w-md mb-8">
-        The boutique salon or gemstone exhibit you are looking for has been moved or does not exist. Let us guide you back to the center salon.
+        The boutique salon or gemstone exhibit you are looking for has been
+        moved or does not exist. Let us guide you back to the center salon.
       </p>
       <Button asChild>
-        <Link to="/">Return to Maison</Link>
+        <Link to="/">Return to Labonno</Link>
       </Button>
     </div>
-  )
-}
+  );
+};

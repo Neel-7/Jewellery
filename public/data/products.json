@@ -61,8 +61,8 @@
   },
   {
     "id": "prod-3",
-    "slug": "maison-emerald-chevron-bracelet",
-    "name": "Maison Emerald Chevron Bracelet",
+    "slug": "labonno-emerald-chevron-bracelet",
+    "name": "Labonno Emerald Chevron Bracelet",
     "category": "Bracelets",
     "collection": "High Jewelry",
     "material": "Gold",
@@ -79,12 +79,12 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Emerald Chevron Bracelet",
+        "altText": "Labonno Emerald Chevron Bracelet",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Emerald Chevron Bracelet - Hover",
+        "altText": "Labonno Emerald Chevron Bracelet - Hover",
         "type": "image"
       }
     ]
@@ -121,8 +121,8 @@
   },
   {
     "id": "prod-5",
-    "slug": "maison-belvedere-halo-ring",
-    "name": "Maison Belvedere Halo Ring",
+    "slug": "labonno-belvedere-halo-ring",
+    "name": "Labonno Belvedere Halo Ring",
     "category": "Rings",
     "collection": "Fine Jewelry",
     "material": "Silver",
@@ -139,22 +139,22 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Belvedere Halo Ring Main View",
+        "altText": "Labonno Belvedere Halo Ring Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Belvedere Halo Ring Alternate View",
+        "altText": "Labonno Belvedere Halo Ring Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-6",
-    "slug": "maison-celestial-chain",
-    "name": "Maison Celestial Chain",
+    "slug": "labonno-celestial-chain",
+    "name": "Labonno Celestial Chain",
     "category": "Necklaces",
-    "collection": "Maison Collections",
+    "collection": "Labonno Collections",
     "material": "Silver",
     "gemstone": "Pearl",
     "price": 22500,
@@ -164,27 +164,27 @@
     "sku": "MA-N-006",
     "rating": 4.9,
     "ratingCount": 4,
-    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Silver with fine custom-cut Pearl.",
+    "description": "A stunning masterpiece representing the heights of our Labonno Collections line, expertly styled in Silver with fine custom-cut Pearl.",
     "materials": ["18k Silver", "Pearls"],
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Celestial Chain Main View",
+        "altText": "Labonno Celestial Chain Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Celestial Chain Alternate View",
+        "altText": "Labonno Celestial Chain Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-7",
-    "slug": "maison-imperial-chandelier-earrings",
-    "name": "Maison Imperial Chandelier Earrings",
+    "slug": "labonno-imperial-chandelier-earrings",
+    "name": "Labonno Imperial Chandelier Earrings",
     "category": "Earrings",
-    "collection": "Maison Collections",
+    "collection": "Labonno Collections",
     "material": "Platinum",
     "gemstone": "Diamond",
     "price": 13400,
@@ -194,25 +194,25 @@
     "sku": "MA-E-007",
     "rating": 4.9,
     "ratingCount": 9,
-    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Platinum with fine custom-cut Diamond.",
+    "description": "A stunning masterpiece representing the heights of our Labonno Collections line, expertly styled in Platinum with fine custom-cut Diamond.",
     "materials": ["18k Platinum", "Diamonds"],
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Imperial Chandelier Earrings Main View",
+        "altText": "Labonno Imperial Chandelier Earrings Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Imperial Chandelier Earrings Alternate View",
+        "altText": "Labonno Imperial Chandelier Earrings Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-8",
-    "slug": "maison-lumi-re-bangle",
-    "name": "Maison Lumière Bangle",
+    "slug": "labonno-lumi-re-bangle",
+    "name": "Labonno Lumière Bangle",
     "category": "Bracelets",
     "collection": "Engagement & Bridal",
     "material": "Gold",
@@ -229,20 +229,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Lumière Bangle Main View",
+        "altText": "Labonno Lumière Bangle Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Lumière Bangle Alternate View",
+        "altText": "Labonno Lumière Bangle Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-9",
-    "slug": "maison-heritage-classic-automatic",
-    "name": "Maison Heritage Classic Automatic",
+    "slug": "labonno-heritage-classic-automatic",
+    "name": "Labonno Heritage Classic Automatic",
     "category": "Watches",
     "collection": "Engagement & Bridal",
     "material": "Gold",
@@ -259,20 +259,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Heritage Classic Automatic Main View",
+        "altText": "Labonno Heritage Classic Automatic Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Heritage Classic Automatic Alternate View",
+        "altText": "Labonno Heritage Classic Automatic Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-10",
-    "slug": "maison-victoria-cocktail-ring",
-    "name": "Maison Victoria Cocktail Ring",
+    "slug": "labonno-victoria-cocktail-ring",
+    "name": "Labonno Victoria Cocktail Ring",
     "category": "Rings",
     "collection": "High Jewelry",
     "material": "Silver",
@@ -289,20 +289,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Victoria Cocktail Ring Main View",
+        "altText": "Labonno Victoria Cocktail Ring Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1543294001-f7cbfe92237e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Victoria Cocktail Ring Alternate View",
+        "altText": "Labonno Victoria Cocktail Ring Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-11",
-    "slug": "maison-belvedere-chain",
-    "name": "Maison Belvedere Chain",
+    "slug": "labonno-belvedere-chain",
+    "name": "Labonno Belvedere Chain",
     "category": "Necklaces",
     "collection": "High Jewelry",
     "material": "Platinum",
@@ -319,20 +319,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Belvedere Chain Main View",
+        "altText": "Labonno Belvedere Chain Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1512540315028-2c1a6497da04?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Belvedere Chain Alternate View",
+        "altText": "Labonno Belvedere Chain Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-12",
-    "slug": "maison-aurelia-drop-earrings",
-    "name": "Maison Aurelia Drop Earrings",
+    "slug": "labonno-aurelia-drop-earrings",
+    "name": "Labonno Aurelia Drop Earrings",
     "category": "Earrings",
     "collection": "High Jewelry",
     "material": "Platinum",
@@ -349,20 +349,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Aurelia Drop Earrings Main View",
+        "altText": "Labonno Aurelia Drop Earrings Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Aurelia Drop Earrings Alternate View",
+        "altText": "Labonno Aurelia Drop Earrings Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-13",
-    "slug": "maison-imperial-tennis-bracelet",
-    "name": "Maison Imperial Tennis Bracelet",
+    "slug": "labonno-imperial-tennis-bracelet",
+    "name": "Labonno Imperial Tennis Bracelet",
     "category": "Bracelets",
     "collection": "Timepieces",
     "material": "Gold",
@@ -379,20 +379,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Imperial Tennis Bracelet Main View",
+        "altText": "Labonno Imperial Tennis Bracelet Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Imperial Tennis Bracelet Alternate View",
+        "altText": "Labonno Imperial Tennis Bracelet Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-14",
-    "slug": "maison-chevron-sovereign-chronograph",
-    "name": "Maison Chevron Sovereign Chronograph",
+    "slug": "labonno-chevron-sovereign-chronograph",
+    "name": "Labonno Chevron Sovereign Chronograph",
     "category": "Watches",
     "collection": "High Jewelry",
     "material": "Silver",
@@ -409,20 +409,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Chevron Sovereign Chronograph Main View",
+        "altText": "Labonno Chevron Sovereign Chronograph Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Chevron Sovereign Chronograph Alternate View",
+        "altText": "Labonno Chevron Sovereign Chronograph Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-15",
-    "slug": "maison-opera-dome-ring",
-    "name": "Maison Opera Dome Ring",
+    "slug": "labonno-opera-dome-ring",
+    "name": "Labonno Opera Dome Ring",
     "category": "Rings",
     "collection": "Engagement & Bridal",
     "material": "Silver",
@@ -439,20 +439,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1543294001-f7cbfe92237e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Opera Dome Ring Main View",
+        "altText": "Labonno Opera Dome Ring Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Opera Dome Ring Alternate View",
+        "altText": "Labonno Opera Dome Ring Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-16",
-    "slug": "maison-solitaire-pendant",
-    "name": "Maison Solitaire Pendant",
+    "slug": "labonno-solitaire-pendant",
+    "name": "Labonno Solitaire Pendant",
     "category": "Necklaces",
     "collection": "High Jewelry",
     "material": "Gold",
@@ -469,20 +469,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1512540315028-2c1a6497da04?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Solitaire Pendant Main View",
+        "altText": "Labonno Solitaire Pendant Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Solitaire Pendant Alternate View",
+        "altText": "Labonno Solitaire Pendant Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-17",
-    "slug": "aurelia-drop-earrings-of-the-maison",
-    "name": "Aurelia Drop Earrings of the Maison",
+    "slug": "aurelia-drop-earrings-of-the-labonno",
+    "name": "Aurelia Drop Earrings of the Labonno",
     "category": "Earrings",
     "collection": "Fine Jewelry",
     "material": "Silver",
@@ -499,22 +499,22 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80",
-        "altText": "Aurelia Drop Earrings of the Maison Main View",
+        "altText": "Aurelia Drop Earrings of the Labonno Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-        "altText": "Aurelia Drop Earrings of the Maison Alternate View",
+        "altText": "Aurelia Drop Earrings of the Labonno Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-18",
-    "slug": "maison-heritage-cuff",
-    "name": "Maison Heritage Cuff",
+    "slug": "labonno-heritage-cuff",
+    "name": "Labonno Heritage Cuff",
     "category": "Bracelets",
-    "collection": "Maison Collections",
+    "collection": "Labonno Collections",
     "material": "Gold",
     "gemstone": "Diamond",
     "price": 23300,
@@ -524,25 +524,25 @@
     "sku": "MA-B-018",
     "rating": 4.9,
     "ratingCount": 23,
-    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Gold with fine custom-cut Diamond.",
+    "description": "A stunning masterpiece representing the heights of our Labonno Collections line, expertly styled in Gold with fine custom-cut Diamond.",
     "materials": ["18k Gold", "Diamonds"],
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Heritage Cuff Main View",
+        "altText": "Labonno Heritage Cuff Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Heritage Cuff Alternate View",
+        "altText": "Labonno Heritage Cuff Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-19",
-    "slug": "maison-imperial-stella-watch",
-    "name": "Maison Imperial Stella Watch",
+    "slug": "labonno-imperial-stella-watch",
+    "name": "Labonno Imperial Stella Watch",
     "category": "Watches",
     "collection": "Timepieces",
     "material": "Platinum",
@@ -559,22 +559,22 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Imperial Stella Watch Main View",
+        "altText": "Labonno Imperial Stella Watch Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Imperial Stella Watch Alternate View",
+        "altText": "Labonno Imperial Stella Watch Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-20",
-    "slug": "maison-victoria-halo-ring",
-    "name": "Maison Victoria Halo Ring",
+    "slug": "labonno-victoria-halo-ring",
+    "name": "Labonno Victoria Halo Ring",
     "category": "Rings",
-    "collection": "Maison Collections",
+    "collection": "Labonno Collections",
     "material": "Platinum",
     "gemstone": "None",
     "price": 10700,
@@ -584,25 +584,25 @@
     "sku": "MA-R-020",
     "rating": 4.7,
     "ratingCount": 14,
-    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Platinum with fine custom-cut detailing.",
+    "description": "A stunning masterpiece representing the heights of our Labonno Collections line, expertly styled in Platinum with fine custom-cut detailing.",
     "materials": ["18k Platinum", "High Polish"],
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Victoria Halo Ring Main View",
+        "altText": "Labonno Victoria Halo Ring Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Victoria Halo Ring Alternate View",
+        "altText": "Labonno Victoria Halo Ring Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-21",
-    "slug": "maison-belvedere-collar",
-    "name": "Maison Belvedere Collar",
+    "slug": "labonno-belvedere-collar",
+    "name": "Labonno Belvedere Collar",
     "category": "Necklaces",
     "collection": "Engagement & Bridal",
     "material": "Rose Gold",
@@ -619,22 +619,22 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Belvedere Collar Main View",
+        "altText": "Labonno Belvedere Collar Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Belvedere Collar Alternate View",
+        "altText": "Labonno Belvedere Collar Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-22",
-    "slug": "maison-sovereign-drop-earrings",
-    "name": "Maison Sovereign Drop Earrings",
+    "slug": "labonno-sovereign-drop-earrings",
+    "name": "Labonno Sovereign Drop Earrings",
     "category": "Earrings",
-    "collection": "Maison Collections",
+    "collection": "Labonno Collections",
     "material": "Rose Gold",
     "gemstone": "Pearl",
     "price": 9700,
@@ -644,25 +644,25 @@
     "sku": "MA-E-022",
     "rating": 4.8,
     "ratingCount": 15,
-    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Rose Gold with fine custom-cut Pearl.",
+    "description": "A stunning masterpiece representing the heights of our Labonno Collections line, expertly styled in Rose Gold with fine custom-cut Pearl.",
     "materials": ["18k Rose Gold", "Pearls"],
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Sovereign Drop Earrings Main View",
+        "altText": "Labonno Sovereign Drop Earrings Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Sovereign Drop Earrings Alternate View",
+        "altText": "Labonno Sovereign Drop Earrings Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-23",
-    "slug": "maison-aurelia-tennis-bracelet",
-    "name": "Maison Aurelia Tennis Bracelet",
+    "slug": "labonno-aurelia-tennis-bracelet",
+    "name": "Labonno Aurelia Tennis Bracelet",
     "category": "Bracelets",
     "collection": "Timepieces",
     "material": "Platinum",
@@ -679,20 +679,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Aurelia Tennis Bracelet Main View",
+        "altText": "Labonno Aurelia Tennis Bracelet Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Aurelia Tennis Bracelet Alternate View",
+        "altText": "Labonno Aurelia Tennis Bracelet Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-24",
-    "slug": "maison-royal-horology-timepiece",
-    "name": "Maison Royal Horology Timepiece",
+    "slug": "labonno-royal-horology-timepiece",
+    "name": "Labonno Royal Horology Timepiece",
     "category": "Watches",
     "collection": "Engagement & Bridal",
     "material": "Platinum",
@@ -709,20 +709,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Royal Horology Timepiece Main View",
+        "altText": "Labonno Royal Horology Timepiece Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Royal Horology Timepiece Alternate View",
+        "altText": "Labonno Royal Horology Timepiece Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-25",
-    "slug": "maison-sovereign-band",
-    "name": "Maison Sovereign Band",
+    "slug": "labonno-sovereign-band",
+    "name": "Labonno Sovereign Band",
     "category": "Rings",
     "collection": "Timepieces",
     "material": "Gold",
@@ -739,20 +739,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Sovereign Band Main View",
+        "altText": "Labonno Sovereign Band Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Sovereign Band Alternate View",
+        "altText": "Labonno Sovereign Band Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-26",
-    "slug": "maison-celestial-collar",
-    "name": "Maison Celestial Collar",
+    "slug": "labonno-celestial-collar",
+    "name": "Labonno Celestial Collar",
     "category": "Necklaces",
     "collection": "Fine Jewelry",
     "material": "Platinum",
@@ -769,20 +769,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Celestial Collar Main View",
+        "altText": "Labonno Celestial Collar Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Celestial Collar Alternate View",
+        "altText": "Labonno Celestial Collar Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-27",
-    "slug": "maison-stella-creoles",
-    "name": "Maison Stella Creoles",
+    "slug": "labonno-stella-creoles",
+    "name": "Labonno Stella Creoles",
     "category": "Earrings",
     "collection": "Timepieces",
     "material": "Rose Gold",
@@ -799,20 +799,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Stella Creoles Main View",
+        "altText": "Labonno Stella Creoles Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Stella Creoles Alternate View",
+        "altText": "Labonno Stella Creoles Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-28",
-    "slug": "maison-heritage-chain-bracelet",
-    "name": "Maison Heritage Chain Bracelet",
+    "slug": "labonno-heritage-chain-bracelet",
+    "name": "Labonno Heritage Chain Bracelet",
     "category": "Bracelets",
     "collection": "Timepieces",
     "material": "Silver",
@@ -829,22 +829,22 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Heritage Chain Bracelet Main View",
+        "altText": "Labonno Heritage Chain Bracelet Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Heritage Chain Bracelet Alternate View",
+        "altText": "Labonno Heritage Chain Bracelet Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-29",
-    "slug": "imperial-stella-watch-of-the-maison",
-    "name": "Imperial Stella Watch of the Maison",
+    "slug": "imperial-stella-watch-of-the-labonno",
+    "name": "Imperial Stella Watch of the Labonno",
     "category": "Watches",
-    "collection": "Maison Collections",
+    "collection": "Labonno Collections",
     "material": "Silver",
     "gemstone": "Pearl",
     "price": 19200,
@@ -854,25 +854,25 @@
     "sku": "MA-W-029",
     "rating": 4.9,
     "ratingCount": 18,
-    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Silver with fine custom-cut Pearl.",
+    "description": "A stunning masterpiece representing the heights of our Labonno Collections line, expertly styled in Silver with fine custom-cut Pearl.",
     "materials": ["18k Silver", "Pearls"],
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80",
-        "altText": "Imperial Stella Watch of the Maison Main View",
+        "altText": "Imperial Stella Watch of the Labonno Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80",
-        "altText": "Imperial Stella Watch of the Maison Alternate View",
+        "altText": "Imperial Stella Watch of the Labonno Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-30",
-    "slug": "maison-belvedere-dome-ring",
-    "name": "Maison Belvedere Dome Ring",
+    "slug": "labonno-belvedere-dome-ring",
+    "name": "Labonno Belvedere Dome Ring",
     "category": "Rings",
     "collection": "Timepieces",
     "material": "Silver",
@@ -889,20 +889,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Belvedere Dome Ring Main View",
+        "altText": "Labonno Belvedere Dome Ring Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1543294001-f7cbfe92237e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Belvedere Dome Ring Alternate View",
+        "altText": "Labonno Belvedere Dome Ring Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-31",
-    "slug": "maison-opera-collar",
-    "name": "Maison Opera Collar",
+    "slug": "labonno-opera-collar",
+    "name": "Labonno Opera Collar",
     "category": "Necklaces",
     "collection": "Engagement & Bridal",
     "material": "Gold",
@@ -919,20 +919,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Opera Collar Main View",
+        "altText": "Labonno Opera Collar Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1512540315028-2c1a6497da04?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Opera Collar Alternate View",
+        "altText": "Labonno Opera Collar Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-32",
-    "slug": "maison-aurelia-hoops",
-    "name": "Maison Aurelia Hoops",
+    "slug": "labonno-aurelia-hoops",
+    "name": "Labonno Aurelia Hoops",
     "category": "Earrings",
     "collection": "Timepieces",
     "material": "Platinum",
@@ -949,20 +949,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Aurelia Hoops Main View",
+        "altText": "Labonno Aurelia Hoops Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Aurelia Hoops Alternate View",
+        "altText": "Labonno Aurelia Hoops Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-33",
-    "slug": "maison-stella-chain-bracelet",
-    "name": "Maison Stella Chain Bracelet",
+    "slug": "labonno-stella-chain-bracelet",
+    "name": "Labonno Stella Chain Bracelet",
     "category": "Bracelets",
     "collection": "Fine Jewelry",
     "material": "Rose Gold",
@@ -979,20 +979,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Stella Chain Bracelet Main View",
+        "altText": "Labonno Stella Chain Bracelet Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Stella Chain Bracelet Alternate View",
+        "altText": "Labonno Stella Chain Bracelet Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-34",
-    "slug": "maison-imperial-sovereign-chronograph",
-    "name": "Maison Imperial Sovereign Chronograph",
+    "slug": "labonno-imperial-sovereign-chronograph",
+    "name": "Labonno Imperial Sovereign Chronograph",
     "category": "Watches",
     "collection": "Engagement & Bridal",
     "material": "Rose Gold",
@@ -1009,20 +1009,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Imperial Sovereign Chronograph Main View",
+        "altText": "Labonno Imperial Sovereign Chronograph Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Imperial Sovereign Chronograph Alternate View",
+        "altText": "Labonno Imperial Sovereign Chronograph Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-35",
-    "slug": "maison-heritage-dome-ring",
-    "name": "Maison Heritage Dome Ring",
+    "slug": "labonno-heritage-dome-ring",
+    "name": "Labonno Heritage Dome Ring",
     "category": "Rings",
     "collection": "Timepieces",
     "material": "Silver",
@@ -1039,20 +1039,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1543294001-f7cbfe92237e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Heritage Dome Ring Main View",
+        "altText": "Labonno Heritage Dome Ring Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Heritage Dome Ring Alternate View",
+        "altText": "Labonno Heritage Dome Ring Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-36",
-    "slug": "celestial-collar-of-the-maison",
-    "name": "Celestial Collar of the Maison",
+    "slug": "celestial-collar-of-the-labonno",
+    "name": "Celestial Collar of the Labonno",
     "category": "Necklaces",
     "collection": "High Jewelry",
     "material": "Rose Gold",
@@ -1069,20 +1069,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1512540315028-2c1a6497da04?auto=format&fit=crop&w=800&q=80",
-        "altText": "Celestial Collar of the Maison Main View",
+        "altText": "Celestial Collar of the Labonno Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
-        "altText": "Celestial Collar of the Maison Alternate View",
+        "altText": "Celestial Collar of the Labonno Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-37",
-    "slug": "maison-aurelia-studs",
-    "name": "Maison Aurelia Studs",
+    "slug": "labonno-aurelia-studs",
+    "name": "Labonno Aurelia Studs",
     "category": "Earrings",
     "collection": "High Jewelry",
     "material": "Silver",
@@ -1099,20 +1099,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Aurelia Studs Main View",
+        "altText": "Labonno Aurelia Studs Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Aurelia Studs Alternate View",
+        "altText": "Labonno Aurelia Studs Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-38",
-    "slug": "maison-celestial-bangle",
-    "name": "Maison Celestial Bangle",
+    "slug": "labonno-celestial-bangle",
+    "name": "Labonno Celestial Bangle",
     "category": "Bracelets",
     "collection": "Fine Jewelry",
     "material": "Silver",
@@ -1129,20 +1129,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Celestial Bangle Main View",
+        "altText": "Labonno Celestial Bangle Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Celestial Bangle Alternate View",
+        "altText": "Labonno Celestial Bangle Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-39",
-    "slug": "maison-classic-sovereign-chronograph",
-    "name": "Maison Classic Sovereign Chronograph",
+    "slug": "labonno-classic-sovereign-chronograph",
+    "name": "Labonno Classic Sovereign Chronograph",
     "category": "Watches",
     "collection": "Engagement & Bridal",
     "material": "Silver",
@@ -1159,22 +1159,22 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Classic Sovereign Chronograph Main View",
+        "altText": "Labonno Classic Sovereign Chronograph Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Classic Sovereign Chronograph Alternate View",
+        "altText": "Labonno Classic Sovereign Chronograph Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-40",
-    "slug": "maison-opera-eternity-ring",
-    "name": "Maison Opera Eternity Ring",
+    "slug": "labonno-opera-eternity-ring",
+    "name": "Labonno Opera Eternity Ring",
     "category": "Rings",
-    "collection": "Maison Collections",
+    "collection": "Labonno Collections",
     "material": "Platinum",
     "gemstone": "Emerald",
     "price": 4100,
@@ -1184,25 +1184,25 @@
     "sku": "MA-R-040",
     "rating": 4.9,
     "ratingCount": 29,
-    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Platinum with fine custom-cut Emerald.",
+    "description": "A stunning masterpiece representing the heights of our Labonno Collections line, expertly styled in Platinum with fine custom-cut Emerald.",
     "materials": ["18k Platinum", "Emeralds"],
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Opera Eternity Ring Main View",
+        "altText": "Labonno Opera Eternity Ring Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Opera Eternity Ring Alternate View",
+        "altText": "Labonno Opera Eternity Ring Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-41",
-    "slug": "maison-royal-collar",
-    "name": "Maison Royal Collar",
+    "slug": "labonno-royal-collar",
+    "name": "Labonno Royal Collar",
     "category": "Necklaces",
     "collection": "Engagement & Bridal",
     "material": "Rose Gold",
@@ -1219,22 +1219,22 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Royal Collar Main View",
+        "altText": "Labonno Royal Collar Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Royal Collar Alternate View",
+        "altText": "Labonno Royal Collar Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-42",
-    "slug": "maison-sovereign-creoles",
-    "name": "Maison Sovereign Creoles",
+    "slug": "labonno-sovereign-creoles",
+    "name": "Labonno Sovereign Creoles",
     "category": "Earrings",
-    "collection": "Maison Collections",
+    "collection": "Labonno Collections",
     "material": "Rose Gold",
     "gemstone": "Emerald",
     "price": 4200,
@@ -1244,25 +1244,25 @@
     "sku": "MA-E-042",
     "rating": 4.7,
     "ratingCount": 14,
-    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Rose Gold with fine custom-cut Emerald.",
+    "description": "A stunning masterpiece representing the heights of our Labonno Collections line, expertly styled in Rose Gold with fine custom-cut Emerald.",
     "materials": ["18k Rose Gold", "Emeralds"],
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Sovereign Creoles Main View",
+        "altText": "Labonno Sovereign Creoles Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Sovereign Creoles Alternate View",
+        "altText": "Labonno Sovereign Creoles Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-43",
-    "slug": "maison-sovereign-link-bracelet",
-    "name": "Maison Sovereign Link Bracelet",
+    "slug": "labonno-sovereign-link-bracelet",
+    "name": "Labonno Sovereign Link Bracelet",
     "category": "Bracelets",
     "collection": "Fine Jewelry",
     "material": "Platinum",
@@ -1279,22 +1279,22 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Sovereign Link Bracelet Main View",
+        "altText": "Labonno Sovereign Link Bracelet Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Sovereign Link Bracelet Alternate View",
+        "altText": "Labonno Sovereign Link Bracelet Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-44",
-    "slug": "maison-celestial-stella-watch",
-    "name": "Maison Celestial Stella Watch",
+    "slug": "labonno-celestial-stella-watch",
+    "name": "Labonno Celestial Stella Watch",
     "category": "Watches",
-    "collection": "Maison Collections",
+    "collection": "Labonno Collections",
     "material": "Rose Gold",
     "gemstone": "None",
     "price": 54600,
@@ -1304,25 +1304,25 @@
     "sku": "MA-W-044",
     "rating": 5,
     "ratingCount": 9,
-    "description": "A stunning masterpiece representing the heights of our Maison Collections line, expertly styled in Rose Gold with fine custom-cut detailing.",
+    "description": "A stunning masterpiece representing the heights of our Labonno Collections line, expertly styled in Rose Gold with fine custom-cut detailing.",
     "materials": ["18k Rose Gold", "High Polish"],
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Celestial Stella Watch Main View",
+        "altText": "Labonno Celestial Stella Watch Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Celestial Stella Watch Alternate View",
+        "altText": "Labonno Celestial Stella Watch Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-45",
-    "slug": "maison-sovereign-solitaire-ring",
-    "name": "Maison Sovereign Solitaire Ring",
+    "slug": "labonno-sovereign-solitaire-ring",
+    "name": "Labonno Sovereign Solitaire Ring",
     "category": "Rings",
     "collection": "Fine Jewelry",
     "material": "Gold",
@@ -1339,20 +1339,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Sovereign Solitaire Ring Main View",
+        "altText": "Labonno Sovereign Solitaire Ring Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Sovereign Solitaire Ring Alternate View",
+        "altText": "Labonno Sovereign Solitaire Ring Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-46",
-    "slug": "maison-heritage-choker",
-    "name": "Maison Heritage Choker",
+    "slug": "labonno-heritage-choker",
+    "name": "Labonno Heritage Choker",
     "category": "Necklaces",
     "collection": "High Jewelry",
     "material": "Silver",
@@ -1369,20 +1369,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Heritage Choker Main View",
+        "altText": "Labonno Heritage Choker Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Heritage Choker Alternate View",
+        "altText": "Labonno Heritage Choker Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-47",
-    "slug": "maison-celestial-studs",
-    "name": "Maison Celestial Studs",
+    "slug": "labonno-celestial-studs",
+    "name": "Labonno Celestial Studs",
     "category": "Earrings",
     "collection": "High Jewelry",
     "material": "Rose Gold",
@@ -1399,20 +1399,20 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Celestial Studs Main View",
+        "altText": "Labonno Celestial Studs Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Celestial Studs Alternate View",
+        "altText": "Labonno Celestial Studs Alternate View",
         "type": "image"
       }
     ]
   },
   {
     "id": "prod-48",
-    "slug": "maison-chevron-tennis-bracelet",
-    "name": "Maison Chevron Tennis Bracelet",
+    "slug": "labonno-chevron-tennis-bracelet",
+    "name": "Labonno Chevron Tennis Bracelet",
     "category": "Bracelets",
     "collection": "Timepieces",
     "material": "Gold",
@@ -1429,12 +1429,12 @@
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Chevron Tennis Bracelet Main View",
+        "altText": "Labonno Chevron Tennis Bracelet Main View",
         "type": "image"
       },
       {
         "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80",
-        "altText": "Maison Chevron Tennis Bracelet Alternate View",
+        "altText": "Labonno Chevron Tennis Bracelet Alternate View",
         "type": "image"
       }
     ]

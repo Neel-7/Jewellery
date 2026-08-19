@@ -20,13 +20,16 @@ export const Home: React.FC = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
+      {/* Spacer to push hero content below the solid fixed header at all viewports */}
+      <div className="h-16 sm:h-20 md:h-32 bg-[#fdfbf7]" />
+
       {/* 1. CINEMATIC HERO SECTION */}
-      <section className="relative h-screen w-full flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative h-[calc(100vh-64px)] sm:h-[calc(100vh-80px)] md:h-[calc(100vh-128px)] w-full flex items-center justify-center bg-black overflow-hidden">
         {/* Full bleed dark image representing rich craft */}
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=2000&q=90"
-            alt="Maison Aurelia Hero Craft"
+            alt="Labonno Aurelia Hero Craft"
             className="h-full w-full object-cover opacity-60 transition-transform duration-1000 ease-out scale-105 hover:scale-100"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/40" />
@@ -47,21 +50,16 @@ export const Home: React.FC = () => {
             <Button
               variant="accent"
               size="lg"
-              className="text-white hover:text-foreground"
               onClick={() =>
                 window.scrollTo({
-                  top: window.innerHeight - 80,
+                  top: window.innerHeight,
                   behavior: "smooth",
                 })
               }
             >
               Discover The Catalog
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-white text-white hover:bg-white hover:text-black hover:border-white"
-            >
+            <Button variant="default" size="lg">
               The Bridal Atelier
             </Button>
           </div>
@@ -102,10 +100,10 @@ export const Home: React.FC = () => {
                 </span>
               </h2>
               <p className="text-sm font-sans text-muted-foreground leading-relaxed">
-                For a century, Maison Aurélia has crafted one-of-a-kind
-                masterpieces that bridge the gap between classical artistry and
-                modern architectural geometry. Every gem is hand-selected by our
-                master gemologists for exceptional character, depth, and spirit.
+                For a century, Labonno has crafted one-of-a-kind masterpieces
+                that bridge the gap between classical artistry and modern
+                architectural geometry. Every gem is hand-selected by our master
+                gemologists for exceptional character, depth, and spirit.
               </p>
               <div className="pt-2">
                 <Button variant="editorialLink" size="sm" className="text-sm">
@@ -122,7 +120,7 @@ export const Home: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-8">
           {/* Section Heading */}
           <SectionHeading
-            title="The Maison Masterpieces"
+            title="The Labonno Masterpieces"
             eyebrow="Signature Curations"
             ctaHref="/collections/all"
             ctaLabel="View Entire Catalog"

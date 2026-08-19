@@ -1,5 +1,5 @@
 /**
- * Global shared types for Maison Aurélia.
+ * Global shared types for Labonno.
  */
 
 export interface Media {
@@ -13,9 +13,19 @@ export interface Money {
   currency: string;
 }
 
-export type ProductCategory = "Rings" | "Necklaces" | "Earrings" | "Bracelets" | "Watches";
+export type ProductCategory =
+  | "Rings"
+  | "Necklaces"
+  | "Earrings"
+  | "Bracelets"
+  | "Watches";
 export type ProductMaterial = "Gold" | "Platinum" | "Silver" | "Rose Gold";
-export type ProductGemstone = "Diamond" | "Sapphire" | "Emerald" | "Pearl" | "None";
+export type ProductGemstone =
+  | "Diamond"
+  | "Sapphire"
+  | "Emerald"
+  | "Pearl"
+  | "None";
 
 export interface Product {
   id: string;

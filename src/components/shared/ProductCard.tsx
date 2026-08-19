@@ -1,18 +1,18 @@
-import * as React from "react"
-import { Link } from "react-router-dom"
-import { ShoppingBag, Heart } from "lucide-react"
-import { formatCurrency } from "@/lib/formatCurrency"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import type { Product } from "@/types"
+import * as React from "react";
+import { Link } from "react-router-dom";
+import { ShoppingBag, Heart } from "lucide-react";
+import { formatCurrency } from "@/lib/formatCurrency";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import type { Product } from "@/types";
 
 interface ProductCardProps {
   /** The product data object */
-  product: Product
+  product: Product;
   /** Callback fired when clicking 'Quick Add' */
-  onAddToCart?: (product: Product) => void
+  onAddToCart?: (product: Product) => void;
   /** Callback fired when clicking 'Wishlist' icon */
-  onAddToWishlist?: (product: Product) => void
+  onAddToWishlist?: (product: Product) => void;
 }
 
 /**
@@ -25,9 +25,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   onAddToCart,
   onAddToWishlist,
 }) => {
-  const { slug, name, price, images, materials, isNew, inStock } = product
-  const primaryImage = images[0]
-  const hoverImage = images[1] || images[0]
+  const { slug, name, price, images, materials, isNew, inStock } = product;
+  const primaryImage = images[0];
+  const hoverImage = images[1] || images[0];
 
   return (
     <div className="group relative flex flex-col bg-background overflow-hidden transition-all duration-500">
@@ -45,12 +45,18 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         {/* New / Stock Status Badge */}
         <div className="absolute left-4 top-4 z-10 flex flex-col gap-2">
           {isNew && (
-            <Badge variant="accent" className="text-[8px] px-2 py-0.5 tracking-widest">
+            <Badge
+              variant="accent"
+              className="text-[8px] px-2 py-0.5 tracking-widest"
+            >
               New
             </Badge>
           )}
           {!inStock && (
-            <Badge variant="outline" className="text-[8px] bg-background/90 px-2 py-0.5 tracking-widest">
+            <Badge
+              variant="outline"
+              className="text-[8px] bg-background/90 px-2 py-0.5 tracking-widest"
+            >
               Out of Stock
             </Badge>
           )}
@@ -93,7 +99,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       {/* Product Details */}
       <div className="flex flex-col pt-5 pb-2">
         <span className="text-[9px] font-sans tracking-widest text-muted-foreground uppercase mb-1">
-          {materials[0] || "Maison Fine Jewelry"}
+          {materials[0] || "Labonno Fine Jewelry"}
         </span>
         <h3 className="font-display text-base text-foreground font-light mb-1 hover:text-accent transition-colors duration-300">
           <Link to={`/products/${slug}`}>{name}</Link>
@@ -116,5 +122,5 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         </Button>
       </div>
     </div>
-  )
-}
+  );
+};
