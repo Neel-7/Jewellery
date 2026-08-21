@@ -2,6 +2,8 @@ import * as React from "react"
 import { ProductCard } from "@/components/shared/ProductCard"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Button } from "@/components/ui/button"
+import { useAppDispatch } from "@/app/hooks"
+import { addItem } from "@/features/cart/cartSlice"
 import type { Product } from "@/types"
 
 interface ProductGridProps {
@@ -20,12 +22,15 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
   isLoading,
   clearAllFilters,
 }) => {
+  const dispatch = useAppDispatch()
+
   const handleAddToCart = (product: Product) => {
-    console.log(`Add to cart triggered (scaffold pass): ${product.name}`)
+    dispatch(addItem({ product, quantity: 1 }))
+    alert(`Added 1 x "${product.name}" to your atelier selection.`)
   }
 
   const handleAddToWishlist = (product: Product) => {
-    console.log(`Add to wishlist triggered (scaffold pass): ${product.name}`)
+    alert(`Added "${product.name}" to wishlist (scaffold callback).`)
   }
 
   // 1. LOADING SKELETON STATE

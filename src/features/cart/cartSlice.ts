@@ -1,16 +1,25 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 import type { CartItem, Product } from "@/types";
 
+export interface AppliedCoupon {
+  code: string;
+  discountType: "percentage" | "fixed";
+  discountValue: number;
+  message: string;
+}
+
 export interface CartState {
   items: CartItem[];
   totalQuantity: number;
   totalPrice: number;
+  appliedCoupon: AppliedCoupon | null;
 }
 
 const initialState: CartState = {
   items: [],
   totalQuantity: 0,
   totalPrice: 0,
+  appliedCoupon: null,
 };
 
 /**
@@ -83,9 +92,16 @@ export const cartSlice = createSlice({
       state.items = [];
       state.totalQuantity = 0;
       state.totalPrice = 0;
+      state.appliedCoupon = null;
+    },
+    applyCoupon: (state, action: PayloadAction<AppliedCoupon>) => {
+      state.appliedCoupon = action.payload;
+    },
+    removeCoupon: (state) => {
+      state.appliedCoupon = null;
     },
   },
 });
 
-export const { addItem, removeItem, updateQuantity, clearCart } = cartSlice.actions;
+export const { addItem, removeItem, updateQuantity, clearCart, applyCoupon, removeCoupon } = cartSlice.actions;
 export default cartSlice.reducer;

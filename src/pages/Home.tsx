@@ -1,5 +1,7 @@
 import * as React from "react";
 import { useGetProductsQuery } from "@/features/products/api/productsApi";
+import { useAppDispatch } from "@/app/hooks";
+import { addItem } from "@/features/cart/cartSlice";
 import { ProductCard } from "@/components/shared/ProductCard";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { Button } from "@/components/ui/button";
@@ -9,9 +11,11 @@ import type { Product } from "@/types";
 
 export const Home: React.FC = () => {
   const { data: products, isLoading, error } = useGetProductsQuery();
+  const dispatch = useAppDispatch();
 
   const handleAddToCart = (product: Product) => {
-    alert(`Added "${product.name}" to cart (scaffold callback).`);
+    dispatch(addItem({ product, quantity: 1 }));
+    alert(`Added 1 x "${product.name}" to your atelier selection.`);
   };
 
   const handleAddToWishlist = (product: Product) => {
