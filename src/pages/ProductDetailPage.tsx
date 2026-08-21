@@ -11,6 +11,7 @@ import {
 } from "@/features/products/components"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Button } from "@/components/ui/button"
+import { toast } from "@/components/ui/use-toast"
 
 /**
  * ProductDetailPage - Orchestrates gallery, panel metadata, details accordions,
@@ -25,7 +26,11 @@ export const ProductDetailPage: React.FC = () => {
   const handleMobileAdd = () => {
     if (product) {
       dispatch(addItem({ product, quantity: 1 }));
-      alert(`Added 1 x "${product.name}" to your atelier selection.`);
+      toast({
+        title: "Added to Basket",
+        description: `Added 1 x "${product.name}" to your atelier selection.`,
+        variant: "success",
+      });
     }
   }
 

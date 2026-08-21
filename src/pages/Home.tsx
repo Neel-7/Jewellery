@@ -7,6 +7,7 @@ import { SectionHeading } from "@/components/shared/SectionHeading";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { BRAND_TAGLINE } from "@/lib/constants";
+import { toast } from "@/components/ui/use-toast";
 import type { Product } from "@/types";
 
 export const Home: React.FC = () => {
@@ -15,11 +16,11 @@ export const Home: React.FC = () => {
 
   const handleAddToCart = (product: Product) => {
     dispatch(addItem({ product, quantity: 1 }));
-    alert(`Added 1 x "${product.name}" to your atelier selection.`);
-  };
-
-  const handleAddToWishlist = (product: Product) => {
-    alert(`Added "${product.name}" to wishlist (scaffold callback).`);
+    toast({
+      title: "Added to Basket",
+      description: `"${product.name}" has been added to your atelier selection.`,
+      variant: "success",
+    });
   };
 
   return (
@@ -153,7 +154,6 @@ export const Home: React.FC = () => {
                   key={product.id}
                   product={product}
                   onAddToCart={handleAddToCart}
-                  onAddToWishlist={handleAddToWishlist}
                 />
               ))}
             </div>

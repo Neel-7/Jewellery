@@ -2,6 +2,7 @@ import * as React from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
+import { Toaster } from "@/components/ui/toaster";
 
 /**
  * Layout - Global layout wrapper for Labonno.
@@ -21,6 +22,7 @@ export const Layout: React.FC = () => {
       <main className="flex-grow">
         <Outlet />
       </main>
+      <Toaster />
       <Footer />
     </div>
   );

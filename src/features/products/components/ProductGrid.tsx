@@ -4,6 +4,7 @@ import { Skeleton } from "@/components/ui/skeleton"
 import { Button } from "@/components/ui/button"
 import { useAppDispatch } from "@/app/hooks"
 import { addItem } from "@/features/cart/cartSlice"
+import { toast } from "@/components/ui/use-toast"
 import type { Product } from "@/types"
 
 interface ProductGridProps {
@@ -26,11 +27,11 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
 
   const handleAddToCart = (product: Product) => {
     dispatch(addItem({ product, quantity: 1 }))
-    alert(`Added 1 x "${product.name}" to your atelier selection.`)
-  }
-
-  const handleAddToWishlist = (product: Product) => {
-    alert(`Added "${product.name}" to wishlist (scaffold callback).`)
+    toast({
+      title: "Added to Basket",
+      description: `"${product.name}" has been added to your atelier selection.`,
+      variant: "success",
+    })
   }
 
   // 1. LOADING SKELETON STATE
@@ -74,7 +75,6 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
           key={product.id}
           product={product}
           onAddToCart={handleAddToCart}
-          onAddToWishlist={handleAddToWishlist}
         />
       ))}
     </div>

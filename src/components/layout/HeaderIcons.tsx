@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link } from "react-router-dom";
 import { Search, MapPin, User, Heart, ShoppingBag } from "lucide-react";
 import { useAppSelector } from "@/app/hooks";
+import { selectWishlistTotalQuantity } from "@/features/wishlist/wishlistSlice";
 
 export const LeftIcons: React.FC = () => {
   return (
@@ -28,6 +29,7 @@ export const LeftIcons: React.FC = () => {
 
 export const RightIcons: React.FC = () => {
   const totalQuantity = useAppSelector((state) => state.cart.totalQuantity);
+  const wishlistTotalQuantity = useAppSelector(selectWishlistTotalQuantity);
 
   return (
     <div className="flex items-center gap-2 sm:gap-4 text-current">
@@ -40,10 +42,15 @@ export const RightIcons: React.FC = () => {
       </Link>
       <Link
         to="/wishlist"
-        className="p-1.5 hover:text-accent duration-300 transition-colors hidden xs:inline-block"
+        className="p-1.5 hover:text-accent duration-300 transition-colors relative"
         aria-label="Wishlist"
       >
         <Heart className="h-4 sm:h-5 w-4 sm:w-5" />
+        {wishlistTotalQuantity > 0 && (
+          <span className="absolute -top-0.5 -right-0.5 bg-accent text-accent-foreground text-[8px] font-sans font-semibold rounded-full h-4 w-4 flex items-center justify-center border border-background">
+            {wishlistTotalQuantity}
+          </span>
+        )}
       </Link>
       <Link
         to="/cart"

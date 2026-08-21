@@ -14,11 +14,16 @@ import {
   BOUTIQUE_HOURS,
 } from "@/lib/constants";
 import { Input } from "@/components/ui/input";
+import { toast } from "@/components/ui/use-toast";
 
 export const Footer: React.FC = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    alert("Thank you for joining our private newsletter circle.");
+    toast({
+      title: "Newsletter Circle",
+      description: "Thank you for joining our private newsletter circle.",
+      variant: "success",
+    });
   };
 
   return (

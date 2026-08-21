@@ -1,9 +1,12 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import { ShoppingBag, Heart } from "lucide-react";
+import { ShoppingBag, Heart, X } from "lucide-react";
 import { formatCurrency } from "@/lib/formatCurrency";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { useAppDispatch, useAppSelector } from "@/app/hooks";
+import { toggleWishlistItem, selectIsWishlisted } from "@/features/wishlist/wishlistSlice";
+import { toast } from "@/components/ui/use-toast";
 import type { Product } from "@/types";
 
 interface ProductCardProps {
@@ -13,6 +16,10 @@ interface ProductCardProps {
   onAddToCart?: (product: Product) => void;
   /** Callback fired when clicking 'Wishlist' icon */
   onAddToWishlist?: (product: Product) => void;
+  /** Optional prop to render a remove (X) button instead of heart */
+  showRemoveButton?: boolean;
+  /** Callback when removing product */
+  onRemove?: (productId: string) => void;
 }
 
 /**
@@ -24,7 +31,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   product,
   onAddToCart,
   onAddToWishlist,
+  showRemoveButton = false,
+  onRemove,
 }) => {
+  const dispatch = useAppDispatch();
+  const isWishlisted = useAppSelector(selectIsWishlisted(product.id));
+
   const { slug, name, price, images, materials, isNew, inStock } = product;
   const primaryImage = images[0];
   const hoverImage = images[1] || images[0];
@@ -33,14 +45,55 @@ export const ProductCard: React.FC<ProductCardProps> = ({
     <div className="group relative flex flex-col bg-background overflow-hidden transition-all duration-500">
       {/* Product Image Area */}
       <div className="relative aspect-[3/4] w-full bg-secondary overflow-hidden">
-        {/* Wishlist Button */}
-        <button
-          onClick={() => onAddToWishlist?.(product)}
-          className="absolute right-4 top-4 z-10 p-2 bg-background/80 backdrop-blur-sm text-foreground hover:text-accent hover:bg-background transition-all duration-300 shadow-sm"
-          aria-label="Add to wishlist"
-        >
-          <Heart className="h-4 w-4" />
-        </button>
+        {/* Wishlist / Remove Button */}
+        {showRemoveButton ? (
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              onRemove?.(product.id);
+            }}
+            className="absolute right-4 top-4 z-10 p-2 bg-background/80 backdrop-blur-sm text-[#111111] hover:text-destructive hover:bg-background transition-all duration-300 shadow-sm"
+            aria-label="Remove from wishlist"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        ) : (
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              const willBeWishlisted = !isWishlisted;
+              dispatch(toggleWishlistItem(product));
+              
+              if (willBeWishlisted) {
+                toast({
+                  title: "Added to Wishlist",
+                  description: `"${product.name}" has been added to your wishlist.`,
+                  variant: "success",
+                });
+              } else {
+                toast({
+                  title: "Removed from Wishlist",
+                  description: `"${product.name}" has been removed from your wishlist.`,
+                  variant: "default",
+                });
+              }
+              
+              onAddToWishlist?.(product);
+            }}
+            className="absolute right-4 top-4 z-10 p-2 bg-background/80 backdrop-blur-sm transition-all duration-300 shadow-sm"
+            aria-label="Add to wishlist"
+          >
+            <Heart
+              className={`h-4 w-4 transition-colors duration-300 ${
+                isWishlisted
+                  ? "fill-[#0A5C5A] text-[#0A5C5A]"
+                  : "text-[#111111] hover:text-[#0A5C5A]"
+              }`}
+            />
+          </button>
+        )}
 
         {/* New / Stock Status Badge */}
         <div className="absolute left-4 top-4 z-10 flex flex-col gap-2">

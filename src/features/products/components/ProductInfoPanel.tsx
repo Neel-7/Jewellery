@@ -1,10 +1,12 @@
 import * as React from "react";
 import { Heart, Minus, Plus, ShoppingBag } from "lucide-react";
-import { useAppDispatch } from "@/app/hooks";
+import { useAppDispatch, useAppSelector } from "@/app/hooks";
 import { addItem } from "@/features/cart/cartSlice";
+import { toggleWishlistItem, selectIsWishlisted } from "@/features/wishlist/wishlistSlice";
 import { formatCurrency } from "@/lib/formatCurrency";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { toast } from "@/components/ui/use-toast";
 import { RatingStars } from "./RatingStars";
 import {
   Accordion,
@@ -28,7 +30,7 @@ export const ProductInfoPanel: React.FC<ProductInfoPanelProps> = ({
 }) => {
   const dispatch = useAppDispatch();
   const [quantity, setQuantity] = React.useState(1);
-  const [isWishlisted, setIsWishlisted] = React.useState(false);
+  const isWishlisted = useAppSelector(selectIsWishlisted(product.id));
 
   const {
     name,
@@ -46,7 +48,11 @@ export const ProductInfoPanel: React.FC<ProductInfoPanelProps> = ({
 
   const handleAddToCart = () => {
     dispatch(addItem({ product, quantity }));
-    alert(`Added ${quantity} x "${name}" to your atelier selection.`);
+    toast({
+      title: "Added to Basket",
+      description: `Added ${quantity} x "${name}" to your atelier selection.`,
+      variant: "success",
+    });
   };
 
   return (
@@ -128,10 +134,13 @@ export const ProductInfoPanel: React.FC<ProductInfoPanelProps> = ({
           </Button>
 
           <button
-            onClick={() => setIsWishlisted(!isWishlisted)}
-            className={`p-3 border border-border h-11 w-11 flex items-center justify-center transition-colors duration-300 ${isWishlisted ? "bg-accent/10 border-accent text-accent" : "text-muted-foreground hover:text-foreground"}`}
+            onClick={() => {
+              dispatch(toggleWishlistItem(product));
+            }}
+            className={`p-3 border border-border h-11 w-11 flex items-center justify-center transition-colors duration-300 ${isWishlisted ? "bg-[#0A5C5A]/10 border-[#0A5C5A] text-[#0A5C5A]" : "text-muted-foreground hover:text-foreground"}`}
+            aria-label="Toggle wishlist"
           >
-            <Heart className={`h-4 w-4 ${isWishlisted ? "fill-accent" : ""}`} />
+            <Heart className={`h-4 w-4 ${isWishlisted ? "fill-[#0A5C5A] text-[#0A5C5A]" : ""}`} />
           </button>
         </div>
       </div>
