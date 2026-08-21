@@ -1,15 +1,18 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 import { Search, MapPin, User, Heart, ShoppingBag } from "lucide-react";
-import { useAppSelector } from "@/app/hooks";
+import { useAppDispatch, useAppSelector } from "@/app/hooks";
 import { selectWishlistTotalQuantity } from "@/features/wishlist/wishlistSlice";
+import { openSearch } from "@/app/uiSlice";
 
 export const LeftIcons: React.FC = () => {
+  const dispatch = useAppDispatch();
+
   return (
     <div className="flex items-center gap-4 text-current">
       <button
         onClick={() => {
-          // Future-proof or simple placeholder click handler
+          dispatch(openSearch());
         }}
         className="p-1.5 hover:text-accent duration-300 transition-colors"
         aria-label="Search Catalog"

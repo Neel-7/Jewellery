@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 import type { NavigationCategory } from "@/features/navigation/navConfig";
+import { CuratedCard } from "@/features/products/components/CuratedCard";
 
 interface MegaMenuProps {
   category: NavigationCategory;
@@ -41,24 +42,13 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ category, onClose }) => {
           </p>
           <div className="grid grid-cols-3 gap-6">
             {category.thumbnails.map((thumb) => (
-              <Link
+              <CuratedCard
                 key={thumb.caption}
-                to={thumb.href}
+                imageUrl={thumb.imageUrl}
+                caption={thumb.caption}
+                href={thumb.href}
                 onClick={onClose}
-                className="group flex flex-col items-center text-center focus:outline-none"
-              >
-                <div className="w-full aspect-[4/5] overflow-hidden bg-muted mb-3 border border-border/40 transition-colors group-hover:border-accent/40">
-                  <img
-                    src={thumb.imageUrl}
-                    alt={thumb.caption}
-                    className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                    loading="lazy"
-                  />
-                </div>
-                <span className="text-[10px] font-sans tracking-luxury uppercase text-foreground group-hover:text-accent transition-colors">
-                  {thumb.caption}
-                </span>
-              </Link>
+              />
             ))}
           </div>
         </div>

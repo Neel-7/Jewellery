@@ -26,3 +26,8 @@ export interface ProductQueryResponse {
   totalPages: number;
   currentPage: number;
 }
+
+export interface SearchResponse {
+  data: Product[];
+  totalCount: number;
+}

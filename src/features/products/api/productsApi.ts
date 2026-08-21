@@ -1,6 +1,10 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import type { Product } from "@/types";
-import type { ProductQueryArgs, ProductQueryResponse } from "../types";
+import type {
+  ProductQueryArgs,
+  ProductQueryResponse,
+  SearchResponse,
+} from "../types";
 
 /**
  * RTK Query API slice for products.
@@ -28,29 +32,35 @@ export const productsApi = createApi({
 
         // 1. Collection filter
         if (arg.collection && arg.collection.toLowerCase() !== "all") {
-          filtered = filtered.filter((p) =>
-            p.collection.toLowerCase() === arg.collection!.toLowerCase()
+          filtered = filtered.filter(
+            (p) => p.collection.toLowerCase() === arg.collection!.toLowerCase(),
           );
         }
 
         // 2. Category filter
         if (arg.category && arg.category.length > 0) {
           filtered = filtered.filter((p) =>
-            arg.category!.some((c) => c.toLowerCase() === p.category.toLowerCase())
+            arg.category!.some(
+              (c) => c.toLowerCase() === p.category.toLowerCase(),
+            ),
           );
         }
 
         // 3. Material filter
         if (arg.material && arg.material.length > 0) {
           filtered = filtered.filter((p) =>
-            arg.material!.some((m) => m.toLowerCase() === p.material.toLowerCase())
+            arg.material!.some(
+              (m) => m.toLowerCase() === p.material.toLowerCase(),
+            ),
           );
         }
 
         // 4. Gemstone filter
         if (arg.gemstone && arg.gemstone.length > 0) {
           filtered = filtered.filter((p) =>
-            arg.gemstone!.some((g) => g.toLowerCase() === p.gemstone.toLowerCase())
+            arg.gemstone!.some(
+              (g) => g.toLowerCase() === p.gemstone.toLowerCase(),
+            ),
           );
         }
 
@@ -108,7 +118,10 @@ export const productsApi = createApi({
       providesTags: (result) =>
         result
           ? [
-              ...result.products.map(({ id }) => ({ type: "Product" as const, id })),
+              ...result.products.map(({ id }) => ({
+                type: "Product" as const,
+                id,
+              })),
               { type: "Product", id: "PARTIAL_LIST" },
             ]
           : [{ type: "Product", id: "PARTIAL_LIST" }],
@@ -124,6 +137,42 @@ export const productsApi = createApi({
       },
       providesTags: (_result, _error, arg) => [{ type: "Product", id: arg }],
     }),
+    searchProducts: builder.query<SearchResponse, { q: string }>({
+      query: () => "data/products.json",
+      transformResponse: (response: Product[], _meta, arg) => {
+        const q = (arg.q || "").trim().toLowerCase();
+        if (q.length < 2) {
+          return { data: [], totalCount: 0 };
+        }
+
+        const filtered = response.filter((p) => {
+          const nameMatch = p.name.toLowerCase().includes(q);
+          const categoryMatch = p.category.toLowerCase().includes(q);
+          const collectionMatch = p.collection.toLowerCase().includes(q);
+          const materialsMatch = p.materials.some((m) =>
+            m.toLowerCase().includes(q),
+          );
+          return (
+            nameMatch || categoryMatch || collectionMatch || materialsMatch
+          );
+        });
+
+        return {
+          data: filtered,
+          totalCount: filtered.length,
+        };
+      },
+      providesTags: (result) =>
+        result
+          ? [
+              ...result.data.map(({ id }) => ({
+                type: "Product" as const,
+                id,
+              })),
+              { type: "Product", id: "SEARCH_LIST" },
+            ]
+          : [{ type: "Product", id: "SEARCH_LIST" }],
+    }),
   }),
 });
 
@@ -131,4 +180,5 @@ export const {
   useGetProductsQuery,
   useGetFilteredProductsQuery,
   useGetProductBySlugQuery,
+  useSearchProductsQuery,
 } = productsApi;

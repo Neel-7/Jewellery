@@ -9,3 +9,7 @@ export { RelatedProducts } from "./RelatedProducts";
 export { StickyMobileBar } from "./StickyMobileBar";
 export { QuickViewModal } from "./QuickViewModal";
 export { VariantSelector } from "./VariantSelector";
+export { SearchDialog } from "./SearchDialog";
+export { SearchResultsGrid } from "./SearchResultsGrid";
+export { SearchSpotlight } from "./SearchSpotlight";
+export { CuratedCard } from "./CuratedCard";

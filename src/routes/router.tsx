@@ -8,6 +8,7 @@ import { WishlistPage } from "@/pages/WishlistPage";
 import { AccountPage } from "@/pages/AccountPage";
 import { LoginPage } from "@/pages/LoginPage";
 import { CheckoutPlaceholderPage } from "@/pages/CheckoutPlaceholderPage";
+import { SearchPage } from "@/pages/SearchPage";
 import { NotFound } from "@/pages/NotFound";
 
 export const router = createBrowserRouter([
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
       {
         path: "checkout",
         element: <CheckoutPlaceholderPage />,
+      },
+      {
+        path: "search",
+        element: <SearchPage />,
       },
       {
         path: "*",
