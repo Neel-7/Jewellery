@@ -1,12 +1,13 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import { ShoppingBag, Heart, X } from "lucide-react";
+import { ShoppingBag, Heart, X, Eye } from "lucide-react";
 import { formatCurrency } from "@/lib/formatCurrency";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useAppDispatch, useAppSelector } from "@/app/hooks";
 import { toggleWishlistItem, selectIsWishlisted } from "@/features/wishlist/wishlistSlice";
 import { toast } from "@/components/ui/use-toast";
+import { openQuickView } from "@/app/uiSlice";
 import type { Product } from "@/types";
 
 interface ProductCardProps {
@@ -136,16 +137,30 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         </Link>
 
         {/* Quick Add Slide-up Panel (Desktop) */}
-        <div className="absolute bottom-0 inset-x-0 translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0 hidden sm:block">
-          <Button
-            onClick={() => onAddToCart?.(product)}
-            disabled={!inStock}
-            variant="default"
-            className="w-full text-center hover:bg-primary/95 transition-colors h-12"
-          >
-            <ShoppingBag className="h-4 w-4 mr-2" />
-            Quick Add
-          </Button>
+        <div className="absolute bottom-0 inset-x-0 translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0 hidden sm:block z-20">
+          <div className="flex w-full">
+            <Button
+              onClick={() => onAddToCart?.(product)}
+              disabled={!inStock}
+              variant="default"
+              className="flex-grow text-center hover:bg-primary/95 transition-colors h-12 rounded-none"
+            >
+              <ShoppingBag className="h-4 w-4 mr-2" />
+              Quick Add
+            </Button>
+            <Button
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                dispatch(openQuickView(product.id));
+              }}
+              variant="default"
+              className="px-4 hover:bg-primary/95 transition-colors h-12 rounded-none bg-primary/90 border-l border-primary-foreground/10"
+              aria-label="Quick view"
+            >
+              <Eye className="h-4 w-4 text-primary-foreground" />
+            </Button>
+          </div>
         </div>
       </div>
 

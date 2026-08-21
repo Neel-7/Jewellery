@@ -3,6 +3,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { Toaster } from "@/components/ui/toaster";
+import { QuickViewModal } from "@/features/products/components";
 
 /**
  * Layout - Global layout wrapper for Labonno.
@@ -23,6 +24,7 @@ export const Layout: React.FC = () => {
         <Outlet />
       </main>
       <Toaster />
+      <QuickViewModal />
       <Footer />
     </div>
   );

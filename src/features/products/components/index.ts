@@ -7,3 +7,4 @@ export { ProductGallery } from "./ProductGallery";
 export { ProductInfoPanel } from "./ProductInfoPanel";
 export { RelatedProducts } from "./RelatedProducts";
 export { StickyMobileBar } from "./StickyMobileBar";
+export { QuickViewModal } from "./QuickViewModal";

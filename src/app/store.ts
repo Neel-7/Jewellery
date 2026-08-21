@@ -3,6 +3,7 @@ import { productsApi } from "@/features/products/api/productsApi";
 import { couponApi } from "@/features/cart/api/couponApi";
 import cartReducer from "@/features/cart/cartSlice";
 import wishlistReducer, { hydrateWishlist } from "@/features/wishlist/wishlistSlice";
+import uiReducer from "@/app/uiSlice";
 import { loadWishlistFromStorage, saveWishlistToStorage } from "@/features/wishlist/wishlistPersistence";
 
 export const store = configureStore({
@@ -11,6 +12,7 @@ export const store = configureStore({
     [couponApi.reducerPath]: couponApi.reducer,
     cart: cartReducer,
     wishlist: wishlistReducer,
+    ui: uiReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(productsApi.middleware, couponApi.middleware),
