@@ -35,7 +35,7 @@ export const RightIcons: React.FC = () => {
     <div className="flex items-center gap-2 sm:gap-4 text-current">
       <Link
         to="/account"
-        className="p-1.5 hover:text-accent duration-300 transition-colors"
+        className="p-1.5 hover:text-accent duration-300 transition-colors hidden md:inline-block"
         aria-label="Boutique Account"
       >
         <User className="h-4 sm:h-5 w-4 sm:w-5" />

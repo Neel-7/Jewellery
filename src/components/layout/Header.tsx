@@ -22,7 +22,7 @@ export const Header: React.FC = () => {
           <div className="flex justify-center text-center">
             <Link
               to="/"
-              className="text-base sm:text-xl md:text-2xl font-display font-light tracking-luxury text-current hover:opacity-80 transition-opacity whitespace-nowrap"
+              className="text-lg sm:text-2xl md:text-2xl xl:text-4xl font-display font-light tracking-luxury text-current hover:opacity-80 transition-opacity whitespace-nowrap"
             >
               {BRAND_NAME}
             </Link>

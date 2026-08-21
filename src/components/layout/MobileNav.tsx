@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu } from "lucide-react";
+import { Menu, User } from "lucide-react";
 import { BRAND_NAME, CONTACT_EMAIL, CONTACT_PHONE } from "@/lib/constants";
 import { NAVIGATION_CATEGORIES } from "@/features/navigation/navConfig";
 import {
@@ -90,8 +90,9 @@ export const MobileNav: React.FC = () => {
               </Link>
               <Link
                 to="/account"
-                className="text-[10px] font-sans uppercase tracking-widest text-muted-foreground hover:text-foreground"
+                className="text-[10px] font-sans uppercase tracking-widest text-muted-foreground hover:text-foreground flex items-center gap-2"
               >
+                <User className="h-3.5 w-3.5" />
                 Boutique Account
               </Link>
               <Link
