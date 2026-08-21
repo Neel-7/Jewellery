@@ -108,6 +108,24 @@ A fully URL-synchronized, responsive catalog rendering ~48 unique pieces from a 
 - **StickyMobileBar:** Sticky bottom drawer revealed upon downward scrolling, making checkout quick actions continuously reachable on viewports.
 - **CartState:** Complete Redux Toolkit reducers (`addItem`, `removeItem`, `updateQuantity`) connected to an active item count badge on the Header utility section.
 
+### 3. Product Variants & Stock Status Enforcement
+
+- **Presentational VariantSelector:** Allows selection of metals/materials (derived from `product.materials`) and ring sizes (static US sizes 4–10 for the "Rings" category) on the PDP. Selection is saved in the local state and correctly bound to `CartItem.selectedVariant` upon adding to basket.
+- **Ring Size Caveat:** Because the underlying data model does not support per-variant price/stock schemas, the ring-size selector is purely a **cosmetic/non-authoritative** design experience to reflect luxury catalog interfaces and is documented as such in the interface.
+- **Consistent Out-of-Stock Enforcement:**
+  - **ProductCard:** Out-of-stock items overlay an "Out of Stock" Badge, and have their "Quick Add" (Desktop) and "Add to Cart" (Mobile) buttons disabled, dimmed to 40% opacity, and set to non-interactive, with their labels updated to "Out of Stock".
+  - **ProductInfoPanel (PDP):** Displays an "Out of Stock" Badge adjacent to the product category/title. The quantity stepper is locked, and the "Add to Bag" button is disabled, styled with reduced opacity, and exhibits a static "Out of Stock" indicator.
+
+### 4. PDP Fullscreen Image Gallery
+
+- **Zoom/Fullscreen viewer:** Main preview image inside `ProductGallery.tsx` features an editorial "View fullscreen" button revealed on hover. Clicking the preview image or the hover button opens a sleek, near-fullscreen Radix `Dialog` showing the image at large dimensions.
+- **Cyclic navigation:** The fullscreen Dialog features tactile Left and Right arrow navigation buttons that cycle infinitely through the product images.
+- **Synchronized selection state:** The fullscreen viewer manipulates the same `activeIndex` state. Thus, clicking through images inside the Dialog and closing it leaves the correct corresponding thumbnail selected and visible on the main page.
+- **Keyboard & Accessibility bindings:**
+  - Standard Radix Dialog handles closing automatically on **Escape** key down or outside-clicks.
+  - Active keyboard listeners bind **ArrowLeft** and **ArrowRight** to change images when the fullscreen modal is open.
+  - Controls, triggers, and elements are augmented with semantic `aria-label` annotations for assistive technologies.
+
 ---
 
 ## Getting Started

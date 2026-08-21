@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { toast } from "@/components/ui/use-toast";
 import { RatingStars } from "./RatingStars";
+import { VariantSelector } from "./VariantSelector";
 import {
   Accordion,
   AccordionContent,
@@ -46,11 +47,22 @@ export const ProductInfoPanel: React.FC<ProductInfoPanelProps> = ({
     sku,
   } = product;
 
+  const [selectedMaterial, setSelectedMaterial] = React.useState<string>(
+    materials[0] || product.material
+  );
+  const [selectedSize, setSelectedSize] = React.useState<string | undefined>(
+    category === "Rings" ? "6" : undefined
+  );
+
   const handleAddToCart = () => {
-    dispatch(addItem({ product, quantity }));
+    const selectedVariant = category === "Rings" && selectedSize
+      ? `${selectedMaterial} / Size ${selectedSize}`
+      : selectedMaterial;
+
+    dispatch(addItem({ product, quantity, selectedVariant }));
     toast({
       title: "Added to Basket",
-      description: `Added ${quantity} x "${name}" to your atelier selection.`,
+      description: `Added ${quantity} x "${name}" (${selectedVariant}) to your atelier selection.`,
       variant: "success",
     });
   };
@@ -58,9 +70,19 @@ export const ProductInfoPanel: React.FC<ProductInfoPanelProps> = ({
   return (
     <div className="flex flex-col space-y-6">
       <div>
-        <span className="text-[10px] font-sans tracking-luxury uppercase text-accent mb-2 block">
-          {collection} — {category}
-        </span>
+        <div className="flex flex-wrap items-center gap-3 mb-2">
+          <span className="text-[10px] font-sans tracking-luxury uppercase text-accent block">
+            {collection} — {category}
+          </span>
+          {!inStock && (
+            <Badge
+              variant="outline"
+              className="text-[8px] bg-background/90 px-2 py-0.5 tracking-widest border-destructive text-destructive uppercase"
+            >
+              Out of Stock
+            </Badge>
+          )}
+        </div>
         <h1 className="text-2xl sm:text-4xl font-display font-light text-foreground tracking-wide leading-tight">
           {name}
         </h1>
@@ -102,6 +124,16 @@ export const ProductInfoPanel: React.FC<ProductInfoPanelProps> = ({
         {description}
       </p>
 
+      {/* Variant Selector */}
+      <VariantSelector
+        materials={materials}
+        category={category}
+        selectedMaterial={selectedMaterial}
+        onMaterialChange={setSelectedMaterial}
+        selectedSize={selectedSize}
+        onSizeChange={setSelectedSize}
+      />
+
       <div className="flex flex-col space-y-4 pt-4 border-t border-border">
         <div className="flex items-center gap-4">
           <div className="flex items-center border border-border bg-background h-11">
@@ -130,7 +162,13 @@ export const ProductInfoPanel: React.FC<ProductInfoPanelProps> = ({
             variant="default"
             className="flex-1 h-11 text-xs"
           >
-            <ShoppingBag className="h-4 w-4 mr-2" /> Add to Bag
+            {inStock ? (
+              <>
+                <ShoppingBag className="h-4 w-4 mr-2" /> Add to Bag
+              </>
+            ) : (
+              "Out of Stock"
+            )}
           </Button>
 
           <button

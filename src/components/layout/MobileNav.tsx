@@ -20,11 +20,13 @@ import {
 export const MobileNav: React.FC = () => {
   const [open, setOpen] = React.useState(false);
   const location = useLocation();
+  const [prevPathname, setPrevPathname] = React.useState(location.pathname);
 
   // Close Sheet on route change
-  React.useEffect(() => {
+  if (location.pathname !== prevPathname) {
+    setPrevPathname(location.pathname);
     setOpen(false);
-  }, [location.pathname]);
+  }
 
   return (
     <div className="md:hidden">

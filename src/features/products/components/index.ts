@@ -8,3 +8,4 @@ export { ProductInfoPanel } from "./ProductInfoPanel";
 export { RelatedProducts } from "./RelatedProducts";
 export { StickyMobileBar } from "./StickyMobileBar";
 export { QuickViewModal } from "./QuickViewModal";
+export { VariantSelector } from "./VariantSelector";

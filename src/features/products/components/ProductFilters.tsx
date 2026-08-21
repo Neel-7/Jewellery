@@ -47,14 +47,18 @@ export const ProductFilters: React.FC<ProductFiltersProps> = ({
   const [minInput, setMinInput] = React.useState(minPrice?.toString() || "")
   const [maxInput, setMaxInput] = React.useState(maxPrice?.toString() || "")
 
-  // Sync internal input state with outer props
-  React.useEffect(() => {
-    setMinInput(minPrice?.toString() || "")
-  }, [minPrice])
+  const [prevMinPrice, setPrevMinPrice] = React.useState(minPrice);
+  const [prevMaxPrice, setPrevMaxPrice] = React.useState(maxPrice);
 
-  React.useEffect(() => {
-    setMaxInput(maxPrice?.toString() || "")
-  }, [maxPrice])
+  if (minPrice !== prevMinPrice) {
+    setPrevMinPrice(minPrice);
+    setMinInput(minPrice?.toString() || "");
+  }
+
+  if (maxPrice !== prevMaxPrice) {
+    setPrevMaxPrice(maxPrice);
+    setMaxInput(maxPrice?.toString() || "");
+  }
 
   const handlePriceApply = (e: React.FormEvent) => {
     e.preventDefault()

@@ -143,10 +143,16 @@ export const ProductCard: React.FC<ProductCardProps> = ({
               onClick={() => onAddToCart?.(product)}
               disabled={!inStock}
               variant="default"
-              className="flex-grow text-center hover:bg-primary/95 transition-colors h-12 rounded-none"
+              className="flex-grow text-center hover:bg-primary/95 transition-colors h-12 rounded-none disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              <ShoppingBag className="h-4 w-4 mr-2" />
-              Quick Add
+              {inStock ? (
+                <>
+                  <ShoppingBag className="h-4 w-4 mr-2" />
+                  Quick Add
+                </>
+              ) : (
+                "Out of Stock"
+              )}
             </Button>
             <Button
               onClick={(e) => {
@@ -183,10 +189,16 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           onClick={() => onAddToCart?.(product)}
           disabled={!inStock}
           variant="outline"
-          className="w-full h-10 text-[10px]"
+          className="w-full h-10 text-[10px] disabled:opacity-40"
         >
-          <ShoppingBag className="h-3.5 w-3.5 mr-1.5" />
-          Add to Cart
+          {inStock ? (
+            <>
+              <ShoppingBag className="h-3.5 w-3.5 mr-1.5" />
+              Add to Cart
+            </>
+          ) : (
+            "Out of Stock"
+          )}
         </Button>
       </div>
     </div>

@@ -11,10 +11,12 @@ export const NavRow: React.FC = () => {
   const [hoveredCategory, setHoveredCategory] =
     React.useState<NavigationCategory | null>(null);
   const location = useLocation();
+  const [prevPathname, setPrevPathname] = React.useState(location.pathname);
 
-  React.useEffect(() => {
+  if (location.pathname !== prevPathname) {
+    setPrevPathname(location.pathname);
     setHoveredCategory(null);
-  }, [location.pathname]);
+  }
 
   const isActive = (href: string) => {
     if (location.pathname === href) return true;

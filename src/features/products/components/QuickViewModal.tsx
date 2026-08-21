@@ -28,11 +28,12 @@ export const QuickViewModal: React.FC = () => {
     selectIsWishlisted(product?.id || "")
   );
 
-  React.useEffect(() => {
-    if (quickViewProductId) {
-      setQuantity(1);
-    }
-  }, [quickViewProductId]);
+  const [prevQuickViewProductId, setPrevQuickViewProductId] = React.useState(quickViewProductId);
+
+  if (quickViewProductId !== prevQuickViewProductId) {
+    setPrevQuickViewProductId(quickViewProductId);
+    setQuantity(1);
+  }
 
   if (!product) return null;
 
@@ -155,3 +156,4 @@ export const QuickViewModal: React.FC = () => {
     </Dialog>
   );
 };
+
