@@ -10,6 +10,7 @@ import { LoginPage } from "@/pages/LoginPage";
 import { CheckoutPlaceholderPage } from "@/pages/CheckoutPlaceholderPage";
 import { SearchPage } from "@/pages/SearchPage";
 import { NotFound } from "@/pages/NotFound";
+import { ProtectedRoute } from "./ProtectedRoute";
 
 export const router = createBrowserRouter([
   {
@@ -37,8 +38,13 @@ export const router = createBrowserRouter([
         element: <WishlistPage />,
       },
       {
-        path: "account",
-        element: <AccountPage />,
+        element: <ProtectedRoute />,
+        children: [
+          {
+            path: "account",
+            element: <AccountPage />,
+          },
+        ],
       },
       {
         path: "login",

@@ -4,6 +4,7 @@ import { Search, MapPin, User, Heart, ShoppingBag } from "lucide-react";
 import { useAppDispatch, useAppSelector } from "@/app/hooks";
 import { selectWishlistTotalQuantity } from "@/features/wishlist/wishlistSlice";
 import { openSearch } from "@/app/uiSlice";
+import { selectIsAuthenticated } from "@/features/auth/authSlice";
 
 export const LeftIcons: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -33,13 +34,14 @@ export const LeftIcons: React.FC = () => {
 export const RightIcons: React.FC = () => {
   const totalQuantity = useAppSelector((state) => state.cart.totalQuantity);
   const wishlistTotalQuantity = useAppSelector(selectWishlistTotalQuantity);
+  const isAuthenticated = useAppSelector(selectIsAuthenticated);
 
   return (
     <div className="flex items-center gap-2 sm:gap-4 text-current">
       <Link
-        to="/account"
+        to={isAuthenticated ? "/account" : "/login"}
         className="p-1.5 hover:text-accent duration-300 transition-colors hidden md:inline-block"
-        aria-label="Boutique Account"
+        aria-label={isAuthenticated ? "Boutique Account" : "Boutique Sign In"}
       >
         <User className="h-4 sm:h-5 w-4 sm:w-5" />
       </Link>

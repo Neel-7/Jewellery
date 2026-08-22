@@ -11,6 +11,7 @@ import { QuickViewModal, SearchDialog } from "@/features/products/components";
  */
 export const Layout: React.FC = () => {
   const { pathname } = useLocation();
+  const isAuthRoute = pathname === "/login";
 
   React.useEffect(() => {
     // Scroll window back to top on route transition
@@ -19,14 +20,14 @@ export const Layout: React.FC = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <Header />
+      {!isAuthRoute && <Header />}
       <main className="flex-grow">
         <Outlet />
       </main>
       <Toaster />
       <QuickViewModal />
       <SearchDialog />
-      <Footer />
+      {!isAuthRoute && <Footer />}
     </div>
   );
 };

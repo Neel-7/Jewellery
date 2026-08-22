@@ -126,6 +126,21 @@ A fully URL-synchronized, responsive catalog rendering ~48 unique pieces from a 
   - Active keyboard listeners bind **ArrowLeft** and **ArrowRight** to change images when the fullscreen modal is open.
   - Controls, triggers, and elements are augmented with semantic `aria-label` annotations for assistive technologies.
 
+### 5. Authentication Form Layer & Mock Sessions (Forms, Redux & Persistence)
+
+- **Presentation Forms**: Built high-luxury input forms for Login, Registration, and Password Reset inside `src/features/auth/components/`.
+- **Validation Schemas**: Integrated `react-hook-form`, `zod`, and `@hookform/resolvers` to define precise schemas (`loginSchema`, `registerSchema`, `resetSchema`) with full custom client-side validation errors and strict type safety.
+- **UI & Flow integration**: Mapped login/register as elegant tabs inside `src/pages/LoginPage.tsx` and forgot-password as a Radix-based `Dialog` drawer.
+- **Mock Session & Redux Layer (Pass 5B)**:
+  - Added Redux state management via `authSlice.ts` to hold authenticated user object and JWT-like token.
+  - Formulated thunks `loginUser` and `registerUser` with mock delays (400ms) that generate authentic user UUIDs and metadata as if matching backend payloads.
+  - Implemented secure, standard try/catch storage persistence in `authPersistence.ts` storing session credentials inside localStorage (`labonno_auth_demo`).
+  - Synced global navigation header (`HeaderIcons.tsx`) to render the user's first name next to the account icon with clean inline `(logout)` utility control.
+- **Assumptions & Caveats**:
+  - Auth sessions are fully functional and persist across browser reloads via Redux hydration-on-init.
+  - Submit events display interactive, mock status messages via the brand's standard visual Toast system.
+  - Password fields enforce a strict length limit of at least 8 characters.
+
 ---
 
 ## Getting Started

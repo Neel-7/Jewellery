@@ -49,11 +49,14 @@ export const SearchDialog: React.FC = () => {
 
   // Sync URL query parameters to search inputs when takeover opens
   React.useEffect(() => {
-    if (searchOpen) {
-      setSearchTerm(initialQuery);
-      setDebouncedQuery(initialQuery);
+    if (searchOpen && searchTerm !== initialQuery) {
+      const timer = setTimeout(() => {
+        setSearchTerm(initialQuery);
+        setDebouncedQuery(initialQuery);
+      }, 0);
+      return () => clearTimeout(timer);
     }
-  }, [searchOpen, initialQuery]);
+  }, [searchOpen, initialQuery, searchTerm]);
 
   // Debounce the query input (~300ms)
   React.useEffect(() => {
